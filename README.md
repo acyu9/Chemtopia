@@ -23,12 +23,12 @@ Holds the music files for the game. See the Credit section for more information.
 This folder contains the scenes for the levels (player house, town, diner, and yard), the characters, and other features such as chemtopia. 
 
 ## Credits
-Special thanks to all the artists and musicians.
-NPCs by Elthen: https://elthen.itch.io/ 
-Player, indoors, & outdoor by Lime Zu: https://limezu.itch.io/
-Diner by Gif: https://gif-superretroworld.itch.io/interior-pack 
-Card template by Piposcpatz: https://piposchpatz.itch.io/card-frame-template 
-UI by LoudEyes: https://loudeyes.itch.io/paper-ui-pack-for-games
-Godot 4 plugin by Nathan Hoad:   https://github.com/nathanhoad/godot_dialogue_manager 
-Cards palette by Conker: https://lospec.com/palette-list/pollen8
-Music by SubspaceAudio: https://juhanijunkala.com/ 
+Special thanks to all the artists and musicians.  
+NPCs by Elthen: https://elthen.itch.io/   
+Player, indoors, & outdoor by Lime Zu: https://limezu.itch.io/  
+Diner by Gif: https://gif-superretroworld.itch.io/interior-pack   
+Card template by Piposcpatz: https://piposchpatz.itch.io/card-frame-template   
+UI by LoudEyes: https://loudeyes.itch.io/paper-ui-pack-for-games  
+Godot 4 plugin by Nathan Hoad:   https://github.com/nathanhoad/godot_dialogue_manager   
+Cards palette by Conker: https://lospec.com/palette-list/pollen8  
+Music by SubspaceAudio: https://juhanijunkala.com/   
