@@ -1,5 +1,7 @@
 # Chemtopia
-This game is developed for high school Chemistry students to practice the 5 types of chemical reactions. It consists of RPG and card battle components and is made with the Godot 4.1 engine.
+This game is developed for high school Chemistry students to practice the 5 types of chemical reactions. It consists of RPG and card battle components and is made with the Godot 4.1 engine.  
+The player engages in conversation with the NPCs to play card games with them. Each NPC is responsible for one reaction type to provide scaffolding for the students. The "experience bar" is hidden but is recorded as the player plays the card games. The "reward system" or "level" is not implemented. Instead, players can unlock new NPCs and stories as they "level up".   
+The card game currently utilizes a simple mechanism where the player hovers the mouse to the card. Pressing "space" will zoom in/ zoom out on the card while clicking the left mouse will select the card. The AI is scripted to only play cards that deal a certain amount of damage or lower to control the difficulty level. If the player or opponent has no health left or the game reaches the end of 5th turn, then the game ends. Whoever has greater health wins or tie if both have the same health.
 
 ## Cards
 All the relevant scenes and code for the card battle system. The card_base scene has script for the design of the individual card. The player_hand scene sets up the cards, including fan animation and drawing card. The deck scene has the script for the deck that randomly selects from the dictionary of cards for that chemical reaction. Lastly, the game_board scene holds all the pieces together and includes scripts for opponent move and the whole game mechanism.
