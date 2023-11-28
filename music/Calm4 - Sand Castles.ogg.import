@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://r3eekh3n8jm"
+path="res://.godot/imported/Calm4 - Sand Castles.ogg-928dcbfa52a886fe5332012c0aab7dd9.oggvorbisstr"
+
+[deps]
+
+source_file="res://music/Calm4 - Sand Castles.ogg"
+dest_files=["res://.godot/imported/Calm4 - Sand Castles.ogg-928dcbfa52a886fe5332012c0aab7dd9.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

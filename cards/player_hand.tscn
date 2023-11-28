@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://bwl2w0l5tw1bf"]
+
+[ext_resource type="Script" path="res://cards/player_hand.gd" id="1_vk2h8"]
+
+[sub_resource type="Curve" id="Curve_fjkxm"]
+min_value = -1.0
+_data = [Vector2(0, -1), 0.0, 1.0, 0, 0, Vector2(1, 1), 2.0, 0.0, 1, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_ktwi3"]
+min_value = -1.0
+max_value = 0.0
+_data = [Vector2(0, -1), 0.0, 0.0, 0, 0, Vector2(0.493878, 0), 0.0, 0.0, 0, 0, Vector2(1, -1), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Curve" id="Curve_7c1ag"]
+min_value = -1.0
+_data = [Vector2(0, -0.221053), 0.0, 0.500405, 0, 1, Vector2(0.504854, 0.0315789), 0.0, 0.0, 0, 0, Vector2(1, 0.221053), 0.382663, 0.0, 1, 0]
+point_count = 3
+
+[node name="PlayerHand" type="Node2D"]
+script = ExtResource("1_vk2h8")
+spread_curve = SubResource("Curve_fjkxm")
+height_curve = SubResource("Curve_ktwi3")
+rotation_curve = SubResource("Curve_7c1ag")

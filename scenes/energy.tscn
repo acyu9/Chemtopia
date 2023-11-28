@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7f3rmmlll0cu"]
+
+[ext_resource type="Script" path="res://scenes/energy.gd" id="1_hggsk"]
+[ext_resource type="Texture2D" uid="uid://dwukvvhwfywnu" path="res://graphics/UI/HeartIcon.png" id="1_yx3ui"]
+
+[node name="Energy" type="CanvasLayer"]
+script = ExtResource("1_hggsk")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(100, 10)
+offset_right = 100.0
+offset_bottom = 24.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Heart1" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_yx3ui")
+expand_mode = 2
+
+[node name="Heart2" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_yx3ui")
+expand_mode = 2
+
+[node name="Heart3" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_yx3ui")
+expand_mode = 2

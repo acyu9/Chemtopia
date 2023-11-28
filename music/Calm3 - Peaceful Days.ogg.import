@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c561lcjwqpypo"
+path="res://.godot/imported/Calm3 - Peaceful Days.ogg-791584da2eb673be788e36ba1b17fb9b.oggvorbisstr"
+
+[deps]
+
+source_file="res://music/Calm3 - Peaceful Days.ogg"
+dest_files=["res://.godot/imported/Calm3 - Peaceful Days.ogg-791584da2eb673be788e36ba1b17fb9b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://i1umj32g37ut"]
+
+[ext_resource type="Script" path="res://cards/game_board.gd" id="1_3cutg"]
+[ext_resource type="Texture2D" uid="uid://bi62eaimwe0at" path="res://graphics/cards/slice62.png" id="2_2livk"]
+[ext_resource type="PackedScene" uid="uid://b0mw4rvrq4ixs" path="res://cards/deck.tscn" id="4_60bl7"]
+
+[node name="GameBoard" type="Node2D"]
+script = ExtResource("1_3cutg")
+
+[node name="Background" type="Sprite2D" parent="."]
+visible = false
+scale = Vector2(2.54673, 1.0473)
+texture = ExtResource("2_2livk")
+centered = false
+
+[node name="Cards" type="Node2D" parent="."]
+
+[node name="Deck" parent="." instance=ExtResource("4_60bl7")]
+offset_left = 489.0
+offset_top = 234.0
+offset_right = 529.0
+offset_bottom = 274.0

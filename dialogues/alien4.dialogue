@@ -1,0 +1,13 @@
+~ greet
+Sisu: Hello.
+Imara: Play game?
+- yes
+	if energy == 0:
+		Imara: Wow, Sisu, you need to rest up! We can play tomorrow.
+		=> END
+	set reaction_type = "dr"
+	set show_icons = false
+	do switch_scene()
+- no
+
+=> END

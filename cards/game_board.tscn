@@ -1,0 +1,268 @@
+[gd_scene load_steps=24 format=3 uid="uid://cepbv77ilg3ru"]
+
+[ext_resource type="Script" path="res://cards/game_board.gd" id="1_1tos1"]
+[ext_resource type="Texture2D" uid="uid://cwss5u7i4fht7" path="res://graphics/UI/SmallBackground2.png" id="2_wxmkq"]
+[ext_resource type="PackedScene" uid="uid://b0mw4rvrq4ixs" path="res://cards/deck.tscn" id="3_i4uhh"]
+[ext_resource type="Theme" uid="uid://c35owbawk14tb" path="res://graphics/button.tres" id="3_k6krf"]
+[ext_resource type="PackedScene" uid="uid://bwl2w0l5tw1bf" path="res://cards/player_hand.tscn" id="4_tda1u"]
+[ext_resource type="FontFile" uid="uid://e2u3676o3kk5" path="res://graphics/MatchupPro.ttf" id="4_wxsyk"]
+[ext_resource type="Script" path="res://cards/camera.gd" id="5_c06v5"]
+[ext_resource type="Theme" uid="uid://dqlgry8841pcq" path="res://graphics/health_bar.tres" id="6_nlsdk"]
+[ext_resource type="Texture2D" uid="uid://dehtoxcna8e2s" path="res://graphics/characters/humans/Adam_idle_anim_16x16.png" id="7_048j3"]
+[ext_resource type="Texture2D" uid="uid://ccjuhygc05fw1" path="res://graphics/characters/aliens/alien1_sprite_sheet.png" id="8_robhx"]
+[ext_resource type="Texture2D" uid="uid://bhcj44jqxb2h1" path="res://graphics/characters/aliens/kid_sprite_sheet.png" id="9_tkc8x"]
+[ext_resource type="Texture2D" uid="uid://jhd4to22ntd8" path="res://graphics/characters/aliens/granny_sprite_sheet.png" id="10_vi56o"]
+[ext_resource type="Texture2D" uid="uid://dg6346mqqj4s6" path="res://graphics/characters/aliens/alien4_sprite_sheet.png" id="11_p10bg"]
+[ext_resource type="Texture2D" uid="uid://c6ue8oam4xi62" path="res://graphics/characters/aliens/alien5_sprite_sheet.png" id="12_1v32u"]
+[ext_resource type="Texture2D" uid="uid://bbvv2bnvyncm2" path="res://graphics/UI/BlueButton.png" id="14_lc0yg"]
+[ext_resource type="PackedScene" uid="uid://cf6ltmf7hkbc6" path="res://scenes/chemtopia_button.tscn" id="16_y177k"]
+[ext_resource type="PackedScene" uid="uid://bxe7b01syvr2g" path="res://scenes/game_rules_button.tscn" id="17_nuyaw"]
+[ext_resource type="AudioStream" uid="uid://bojj2iq2vle15" path="res://music/Calm6 - Innocence.ogg" id="18_l2mwg"]
+[ext_resource type="AudioStream" uid="uid://dh8o8c6rvklf3" path="res://music/Calm1 - A Place I Call Home.ogg" id="19_i6htg"]
+[ext_resource type="AudioStream" uid="uid://c561lcjwqpypo" path="res://music/Calm3 - Peaceful Days.ogg" id="20_uc18j"]
+[ext_resource type="AudioStream" uid="uid://r3eekh3n8jm" path="res://music/Calm4 - Sand Castles.ogg" id="21_5gaoq"]
+[ext_resource type="AudioStream" uid="uid://gr5obga8jwsb" path="res://music/Juhani Junkala - Epic Boss Battle [Seamlessly Looping].wav" id="22_kr14h"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rgfa5"]
+bg_color = Color(0.356863, 0.6, 0.6, 1)
+
+[node name="GameBoard" type="Node2D"]
+script = ExtResource("1_1tos1")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(-17, -26)
+scale = Vector2(0.550519, 0.783333)
+texture = ExtResource("2_wxmkq")
+centered = false
+
+[node name="Quit" type="CanvasLayer" parent="."]
+
+[node name="QuitButton" type="Button" parent="Quit"]
+offset_left = 491.0
+offset_top = 57.0
+offset_right = 539.0
+offset_bottom = 88.0
+theme = ExtResource("3_k6krf")
+theme_override_font_sizes/font_size = 12
+text = "Quit"
+metadata/_edit_use_anchors_ = true
+
+[node name="EndTurn" type="CanvasLayer" parent="."]
+
+[node name="Button" type="Button" parent="EndTurn"]
+offset_left = 455.0
+offset_top = 270.0
+offset_right = 543.0
+offset_bottom = 301.0
+theme = ExtResource("3_k6krf")
+theme_override_font_sizes/font_size = 14
+text = "End Turn"
+
+[node name="CardSpots" type="Node2D" parent="."]
+
+[node name="Cards" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Deck" parent="." instance=ExtResource("3_i4uhh")]
+offset_left = 486.0
+offset_top = 206.0
+offset_right = 526.0
+offset_bottom = 246.0
+mouse_filter = 2
+metadata/_edit_group_ = true
+
+[node name="PlayerHand" parent="." instance=ExtResource("4_tda1u")]
+
+[node name="PlayerHealth" type="ProgressBar" parent="."]
+offset_left = 308.0
+offset_top = 8.0
+offset_right = 378.0
+offset_bottom = 19.0
+theme = ExtResource("6_nlsdk")
+max_value = 10.0
+value = 10.0
+fill_mode = 1
+show_percentage = false
+
+[node name="PlayerSprite" type="Sprite2D" parent="PlayerHealth"]
+position = Vector2(-14, 3)
+scale = Vector2(0.874999, 0.78125)
+texture = ExtResource("7_048j3")
+hframes = 24
+frame = 21
+
+[node name="OpponentHealth" type="ProgressBar" parent="."]
+offset_left = 174.0
+offset_top = 8.0
+offset_right = 244.0
+offset_bottom = 19.0
+theme = ExtResource("6_nlsdk")
+theme_override_styles/fill = SubResource("StyleBoxFlat_rgfa5")
+max_value = 10.0
+value = 10.0
+fill_mode = 1
+show_percentage = false
+
+[node name="Alien1Sprite" type="Sprite2D" parent="OpponentHealth"]
+visible = false
+position = Vector2(-13, 4)
+scale = Vector2(0.785714, 0.8125)
+texture = ExtResource("8_robhx")
+hframes = 8
+vframes = 4
+
+[node name="KidSprite" type="Sprite2D" parent="OpponentHealth"]
+visible = false
+position = Vector2(-17.5, 4.5)
+scale = Vector2(1.03571, 1.04167)
+texture = ExtResource("9_tkc8x")
+hframes = 8
+vframes = 9
+frame = 1
+
+[node name="GrannySprite" type="Sprite2D" parent="OpponentHealth"]
+visible = false
+position = Vector2(-11, -3)
+scale = Vector2(1.03125, 1.0625)
+texture = ExtResource("10_vi56o")
+hframes = 8
+vframes = 5
+frame = 33
+
+[node name="Alien4Sprite" type="Sprite2D" parent="OpponentHealth"]
+visible = false
+position = Vector2(-22, -6)
+scale = Vector2(1.21429, 1.14063)
+texture = ExtResource("11_p10bg")
+hframes = 9
+vframes = 5
+frame = 38
+
+[node name="Alien5Sprite" type="Sprite2D" parent="OpponentHealth"]
+visible = false
+position = Vector2(-10, -6)
+scale = Vector2(1.09375, 1.14063)
+texture = ExtResource("12_1v32u")
+hframes = 8
+vframes = 12
+frame = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+offset_right = 542.0
+offset_bottom = 306.0
+metadata/_edit_lock_ = true
+
+[node name="VSeparator" type="VSeparator" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="EndGameMessage" type="Label" parent="CenterContainer/VSeparator"]
+layout_mode = 2
+offset_left = -162.0
+offset_top = -65.0
+offset_right = 165.0
+offset_bottom = 34.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(1, 0.905882, 0.839216, 1)
+theme_override_colors/font_shadow_color = Color(0.933333, 0.415686, 0.486275, 1)
+theme_override_colors/font_outline_color = Color(0.933333, 0.415686, 0.486275, 1)
+theme_override_constants/outline_size = 4
+theme_override_constants/shadow_outline_size = 6
+theme_override_font_sizes/font_size = 50
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Direction" type="Label" parent="CenterContainer/VSeparator"]
+visible = false
+layout_mode = 2
+offset_left = -148.0
+offset_top = 16.0
+offset_right = 157.0
+offset_bottom = 46.0
+theme_override_colors/font_color = Color(1, 0.905882, 0.839216, 1)
+theme_override_colors/font_shadow_color = Color(0.933333, 0.415686, 0.486275, 1)
+theme_override_colors/font_outline_color = Color(0.933333, 0.415686, 0.486275, 1)
+text = "Press any button to continue"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+script = ExtResource("5_c06v5")
+
+[node name="AttackOpponent" type="Label" parent="."]
+modulate = Color(0.45098, 0.27451, 0.298039, 1)
+offset_left = 87.0
+offset_top = 17.0
+offset_right = 143.0
+offset_bottom = 57.0
+rotation = -0.233874
+theme_override_fonts/font = ExtResource("4_wxsyk")
+theme_override_font_sizes/font_size = 24
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AttackPlayer" type="Label" parent="."]
+modulate = Color(0.45098, 0.27451, 0.298039, 1)
+offset_left = 388.0
+offset_top = 5.0
+offset_right = 444.0
+offset_bottom = 45.0
+rotation = 0.116937
+theme_override_fonts/font = ExtResource("4_wxsyk")
+theme_override_font_sizes/font_size = 24
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Turn" type="Sprite2D" parent="."]
+position = Vector2(41, 20)
+scale = Vector2(0.265385, 0.176136)
+texture = ExtResource("14_lc0yg")
+
+[node name="Label" type="Label" parent="Turn"]
+offset_left = -88.5507
+offset_top = -42.5806
+offset_right = 99.4493
+offset_bottom = 43.4194
+theme_override_font_sizes/font_size = 54
+text = "Turn 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Chemtopia" parent="." instance=ExtResource("16_y177k")]
+
+[node name="Game_Rules_Button" parent="." instance=ExtResource("17_nuyaw")]
+
+[node name="Music" type="Node2D" parent="."]
+
+[node name="KidMusic" type="AudioStreamPlayer" parent="Music"]
+stream = ExtResource("18_l2mwg")
+volume_db = -10.0
+
+[node name="Alien1Music" type="AudioStreamPlayer" parent="Music"]
+stream = ExtResource("19_i6htg")
+volume_db = -10.0
+
+[node name="GrannyMusic" type="AudioStreamPlayer" parent="Music"]
+stream = ExtResource("20_uc18j")
+volume_db = -10.0
+
+[node name="SlimeMusic" type="AudioStreamPlayer" parent="Music"]
+stream = ExtResource("21_5gaoq")
+volume_db = -10.0
+
+[node name="ImpMusic" type="AudioStreamPlayer" parent="Music"]
+stream = ExtResource("22_kr14h")
+volume_db = -14.0
+
+[connection signal="pressed" from="Quit/QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="EndTurn/Button" to="." method="_on_button_pressed"]

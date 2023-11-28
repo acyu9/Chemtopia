@@ -1,0 +1,79 @@
+~ room
+*CRASH*
+Sisu: !? What was that?
+Sisu: Sounds like it came from the backyard. I should go take a look.
+
+Use "ASWD" or arrow keys to move and "Space" to interact.
+=> END
+
+
+~ yard
+Sisu: Is that… an UFO? Something’s moving!
+???: (This place is…)
+???: An earthling.
+Sisu: A talking cat!
+???: …My name is MaoMao.
+MaoMao: I’m here on a quest, and you’re going to help me.
+Sisu: And why should I help you…?
+MaoMao: …
+MaoMao: You left me with no choice.
+
+set maomao_animation = "lick"
+
+MaoMao: Meow~
+
+Sisu: !!
+Sisu: I’ll do anything for you!
+set maomao_animation = "idle"
+MaoMao: Good. Let's go inside.
+
+# enabled Globals in settings so don't need to do Globals.intro
+set intro = "ended"
+do TransitionLayer.change_scene("res://scenes/levels/player_house.tscn") 
+=> END
+
+
+~ entrance
+Sisu: Let's go check out the yard.
+
+=> END
+
+
+~ parents
+Sisu: ......
+
+=> END
+
+
+~ game_rules
+MaoMao: Now let me explain your tasks. I would like to study Chemistry, specifically the reactions.
+Sisu: Just so you know, I’m barely passing Chemistry right now…
+MaoMao: However! It is too dangerous and expensive to use actual chemicals, so I made cards to model the behaviors of various elements and molecules.
+MaoMao: The cards also have information on some patterns I've observed.  
+MaoMao: Every time you engage in a card battle game with someone, I’ll be able to collect data on the reactions. The more you play, the more data I have.
+Sisu: How come you don’t play the cards yourself?
+MaoMao: You expect a [i]cat[/i] to [i]play cards[/i]?
+Sisu: But you’re a cat alien who can control a UFO and make cards…
+MaoMao: *Ignore*
+set intro = "game_rules"
+MaoMao: You can read the Chemtopia (C) and Game Rules (R) later. 
+MaoMao: Remember, science is all about observation and experimentation. The important thing is to collect data, not victories.
+MaoMao: It's crucial to balance work and rest, so make sure you sleep when you are out of energy (hearts).
+MaoMao: You can always come talk to me for hints, that is, if I’m in a good mood.
+Sisu: Ok… 
+MaoMao: Let’s start today since there’s no school.
+Sisu: Why is there school in a game!
+Sisu: Who do I play the cards with?
+MaoMao: Look around town. You’ll know when you find them.
+Sisu: Wait, I have to [i]talk to people[/i]?
+MaoMao: You’re talking to me.
+Sisu: But you’re a cat!
+MaoMao: And?
+Sisu: ......
+Sisu: People will judge me…
+MaoMao: If people judge you for being short, are you magically going to grow taller?
+Sisu: No- Wait, I’m not short!
+MaoMao: Then why do you care what they think? Now go outside and play some card games.
+Sisu: Ok…
+set intro = "rules"
+=> END

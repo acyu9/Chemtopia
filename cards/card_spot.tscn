@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://tk68qx3qdn4e"]
+
+[ext_resource type="Script" path="res://cards/card_spot.gd" id="1_yvc1u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2444r"]
+size = Vector2(214, 296)
+
+[node name="CardSpot" type="StaticBody2D" groups=["droppable"]]
+script = ExtResource("1_yvc1u")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(107, 147)
+shape = SubResource("RectangleShape2D_2444r")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(214, 296)
+color = Color(0.992157, 0.819608, 0.529412, 1)

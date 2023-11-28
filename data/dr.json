@@ -1,0 +1,142 @@
+{
+  "LiF, NaCl": {
+    "Products": "LiCl, NaF",
+    "Coefficient": 2
+  },
+  "NaF, HCl": {
+    "Products": "NaCl, HF",
+    "Coefficient": 2
+  },
+  "HF, KCl": {
+    "Products": "HCl, KF",
+    "Coefficient": 2
+  },
+  "KF, RbCl": {
+    "Products": "KCl, RbF",
+    "Coefficient": 2
+  },
+  "RbF, CsCl": {
+    "Products": "RbCl, CsCl",
+    "Coefficient": 2
+  },
+  "LiCl, NaF": {
+    "Products": "LiF, NaCl",
+    "Coefficient": 2
+  },
+  "NaCl, HF": {
+    "Products": "NaF, HCl",
+    "Coefficient": 2
+  },
+  "HCl, KF": {
+    "Products": "HF, KCl",
+    "Coefficient": 2
+  },
+  "KCl, RbF": {
+    "Products": "KF, RbCl",
+    "Coefficient": 2
+  },
+  "RbCl, CsF": {
+    "Products": "RbF, CsCl",
+    "Coefficient": 2
+  },
+  "CsCl, HF": {
+    "Products": "CsF, HCl",
+    "Coefficient": 2
+  },
+  "H2O, Li2S": {
+    "Products": "H2S, Li2O",
+    "Coefficient": 2
+  },
+  "Li2O, Na2S": {
+    "Products": "Li2S, Na2O",
+    "Coefficient": 2
+  },
+  "Na2O, K2S": {
+    "Products": "Na2S, K2O",
+    "Coefficient": 2
+  },
+  "K2O, Rb2S": {
+    "Products": "K2S, Rb2O",
+    "Coefficient": 2
+  },
+  "Rb2O, Cs2S": {
+    "Products": "Rb2S, Cs2O",
+    "Coefficient": 2
+  },
+  "Cs2O, H2S": {
+    "Products": "Cs2S, H2O",
+    "Coefficient": 2
+  },
+  "H2S, Li2O": {
+    "Products": "H2O, Li2S",
+    "Coefficient": 2
+  },
+  "Li2S, Na2O": {
+    "Products": "Li2O, Na2S",
+    "Coefficient": 2
+  },
+  "Na2S, K2O": {
+    "Products": "Na2O, K2S",
+    "Coefficient": 2
+  },
+  "K2S, Rb2O": {
+    "Products": "K2O, Rb2S",
+    "Coefficient": 2
+  },
+  "Rb2S, Cs2O": {
+    "Products": "Rb2O, Cs2S",
+    "Coefficient": 2
+  },
+  "Cs2S, H2O": {
+    "Products": "Cs2O, H2S",
+    "Coefficient": 2
+  },
+  "NH3, Li3P": {
+    "Products": "H3P, Li3N",
+    "Coefficient": 2
+  },
+  "Li3N, Na3P": {
+    "Products": "Li3P, Na3N",
+    "Coefficient": 2
+  },
+  "Na3N, K3P": {
+    "Products": "Na3P, K3N",
+    "Coefficient": 2
+  },
+  "K3N, Rb3P": {
+    "Products": "K3P, Rb3N",
+    "Coefficient": 2
+  },
+  "Rb3N, Cs3P": {
+    "Products": "Rb3P, Rb3N",
+    "Coefficient": 2
+  },
+  "Cs3N, H3P": {
+    "Products": "Cs3P, NH3",
+    "Coefficient": 2
+  },
+  "H3P, Li3N": {
+    "Products": "NH3, Li3P",
+    "Coefficient": 2
+  },
+  "Li3P, Na3N": {
+    "Products": "Li3N, Na3P",
+    "Coefficient": 2
+  },
+  "Na3P, K3N": {
+    "Products": "Na3N, K3P",
+    "Coefficient": 2
+  },
+  "K3P, Rb3N": {
+    "Products": "K3N, Rb3P",
+    "Coefficient": 2
+  },
+  "Rb3P, Rb3N": {
+    "Products": "Rb3N, Cs3P",
+    "Coefficient": 2
+  },
+  "Cs3P, NH3": {
+    "Products": "Cs3N, H3P",
+    "Coefficient": 2
+  }
+}

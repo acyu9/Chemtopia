@@ -1,0 +1,30 @@
+{
+  "H2": {
+    "Name": "Hydrogen",
+    "Category": "P",
+    "Info": "1 valence e-",
+    "Reaction Types": "Synthesis, SR",
+    "Description": "This is a sample description"
+  },
+  "NaNO3": {
+    "Name": "Sodium nitrate",
+    "Category": "I",
+    "Info": "+1, -1",
+    "Reaction Types": "SR, DR",
+    "Description": "Sample 2"
+  },
+  "Ca(NO3)2": {
+    "Name": null,
+    "Category": null,
+    "Info": null,
+    "Reaction Types": null,
+    "Description": null
+  },
+  "Al2O3": {
+    "Name": null,
+    "Category": null,
+    "Info": null,
+    "Reaction Types": null,
+    "Description": null
+  }
+}

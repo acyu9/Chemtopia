@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://67kjaw35w6dj"
+path="res://.godot/imported/granny.dialogue-fb1ce07221350a49f86abd247760f9d4.tres"
+
+[deps]
+
+source_file="res://dialogues/granny.dialogue"
+dest_files=["res://.godot/imported/granny.dialogue-fb1ce07221350a49f86abd247760f9d4.tres"]
+
+[params]
+
+defaults=true

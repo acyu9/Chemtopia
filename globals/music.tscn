@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5g31srtoioq6"]
+
+[ext_resource type="Script" path="res://globals/music.gd" id="1_h5yja"]
+[ext_resource type="AudioStream" uid="uid://chins44sit1jx" path="res://music/Calm2 - Childhood Friends.ogg" id="2_5hare"]
+[ext_resource type="AudioStream" uid="uid://b31cpgr0pxu2x" path="res://music/Calm5 - Summer Memories.ogg" id="3_jd3ov"]
+
+[node name="Music" type="Node2D"]
+script = ExtResource("1_h5yja")
+
+[node name="ChildhoodFriend" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_5hare")
+volume_db = -10.0
+
+[node name="GeneralMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_jd3ov")
+volume_db = -16.0

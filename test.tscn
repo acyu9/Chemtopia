@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cytc7bk7i28q0"]
+
+[ext_resource type="Texture2D" uid="uid://dkh00auxpou4s" path="res://graphics/characters/aliens/Cat Sprite Sheet.png" id="1_jmga5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ntiim"]
+
+[node name="Area2D" type="Area2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+texture = ExtResource("1_jmga5")
+hframes = 7
+vframes = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("CircleShape2D_ntiim")

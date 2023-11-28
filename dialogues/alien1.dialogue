@@ -1,0 +1,76 @@
+~ greet
+if game_count["synthesis"] == 0 and alien1_dialogue == ""
+	=> before_first_game
+elif game_count["synthesis"] == 1 and alien1_dialogue == "first_game"
+	=> after_first_game
+elif game_count["synthesis"] == 5 and alien1_dialogue == "after_first_game"
+	=> slow_learner
+% Galen: How’s your day going?
+% Galen: I just harvested some apples! Would you like one?
+% Galen: Would you like an apple? I promise this batch doesn’t bite!
+% Galen: Are you hungry? How about an apple?
+% Galen: You skipped lunch again? Here, have an apple!
+% Galen: Isn’t apple the best food in the world?
+% Galen: I think I’m getting better at the card game! Thank you for playing with me!
+% Galen: I wonder what happens if I combine oxygen and oxygen…
+% Galen: Was school fun today?
+	
+- Play game
+	if energy == 0:
+		Galen: You should take a break! Eat an apple and rest up.
+		=> END
+	else:
+		set reaction_type = "synthesis"
+		do switch_scene()
+- Bye
+=> END
+
+
+# unlcoked based on synthesis game count
+~ before_first_game
+Sisu: AHHHH!
+set alien1_animation = "eat"
+???: AHHHHH!
+Sisu: Don’t eat me!
+set alien1_animation = "idle"
+???: Don't scare me!
+???: You must be Sisu.
+Sisu: You know me?
+???: Of course. MaoMao told me about you.
+???: I’m Galen. Nice to meet you!
+Sisu: Uh, nice to meet you too? You're... different than what I expected...
+Sisu: I'm, um, here to play the card game.
+Galen: Yes, MaoMao said we’ll start with Synthesis reaction. Have you learned about it in school yet?
+Sisu: …Maybe?
+Galen: According to MaoMao, Synthesis reaction is when two reactants combine to form a product. 
+Galen: For example, if I combine hydrogen and oxygen, I can make water!
+Sisu: Makes sense. So I should try combining two cards to get a reaction?
+Galen: That’s the gist of it.
+Galen: Let’s give it a try!
+set alien1_dialogue = "first_game"
+set reaction_type = "synthesis"
+set show_icons = false
+do switch_scene()
+=> END
+
+
+~ after_first_game
+set alien1_animation = "laugh"
+Galen: Hey, thank you for playing games with me! I had a lot of fun!
+Sisu: It’s just Chemistry…
+set alien1_animation = "idle"
+Galen: ? It’s a game and games are fun!
+Sisu: I guess…
+Galen: I’ll be here whenever you want to play games.
+set alien1_dialogue = "after_first_game"
+=> END
+
+
+~ slow_learner
+Galen: Thank you for playing games with me, even though I’m not good at it.
+Galen: I’m a slow learner, but I do try my best. 
+Galen: It’s been a lot of fun learning and playing games with you!
+Sisu: I’m having a lot of fun too.
+Galen: That’s good to hear. Let’s improve together!
+set alien1_dialogue = "slow_learner"
+=> END

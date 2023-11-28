@@ -1,0 +1,27 @@
+~ greet
+Sisu: Hello.
+Felix: Play game?
+- yes
+	if energy == 0:
+		Felix: Kid, you need to rest!
+		=> END
+	set reaction_type = "combustion"
+	set show_icons = false
+	do switch_scene()
+- no
+
+=> END
+
+#~ start
+#
+#Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
+#Nathan: Here are some choices.
+#- First one
+#	Nathan: You picked the first one.
+#- Second one
+#	Nathan: You picked the second one.
+#- Start again => start
+#- End the conversation => END
+#Nathan: For more information see the online documentation.
+#
+#=> END

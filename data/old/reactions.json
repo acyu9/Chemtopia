@@ -1,0 +1,15 @@
+{
+  "Synthesis": {
+    "[ Na, O2]": {
+      "Products": "[2 NaO]"
+    },
+    "Na, F2": {
+      "Products": "2 NaF"
+    }
+  },
+  "Decomp": {
+    "H2O": {
+      "Products": "H2, O2"
+    }
+  }
+}

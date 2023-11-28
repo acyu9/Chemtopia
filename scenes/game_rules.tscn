@@ -1,0 +1,84 @@
+[gd_scene load_steps=4 format=3 uid="uid://bq0yw7k0md7gw"]
+
+[ext_resource type="Texture2D" uid="uid://c35yyv7po0cu5" path="res://graphics/UI/SaveMenu.png" id="1_5ln24"]
+[ext_resource type="Texture2D" uid="uid://06hfiuxmqty2" path="res://graphics/UI/BlueTitle.png" id="2_xk6rq"]
+[ext_resource type="Texture2D" uid="uid://bqthage00eb37" path="res://graphics/UI/StarIcon.png" id="3_upphn"]
+
+[node name="GameRules" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(270.5, 197)
+scale = Vector2(0.376041, 0.309583)
+texture = ExtResource("1_5ln24")
+flip_h = true
+
+[node name="Title" type="Sprite2D" parent="."]
+position = Vector2(273, 24)
+scale = Vector2(0.277331, 0.200758)
+texture = ExtResource("2_xk6rq")
+metadata/_edit_group_ = true
+
+[node name="Label" type="Label" parent="Title"]
+offset_left = -193.0
+offset_top = -52.0
+offset_right = 206.0
+offset_bottom = 65.0
+theme_override_colors/font_color = Color(1, 0.905882, 0.839216, 1)
+theme_override_font_sizes/font_size = 60
+text = "GAME RULES"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StarIcon" type="Sprite2D" parent="."]
+position = Vector2(54, 66)
+scale = Vector2(0.065534, 0.0747423)
+texture = ExtResource("3_upphn")
+
+[node name="StarIcon2" type="Sprite2D" parent="."]
+position = Vector2(54, 110)
+scale = Vector2(0.065534, 0.0747423)
+texture = ExtResource("3_upphn")
+
+[node name="StarIcon3" type="Sprite2D" parent="."]
+position = Vector2(54, 155)
+scale = Vector2(0.065534, 0.0747423)
+texture = ExtResource("3_upphn")
+
+[node name="StarIcon4" type="Sprite2D" parent="."]
+position = Vector2(54, 218)
+scale = Vector2(0.065534, 0.0747423)
+texture = ExtResource("3_upphn")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 63.0
+offset_top = 58.0
+offset_right = 504.0
+offset_bottom = 265.0
+
+[node name="Cards" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.670588, 0.337255, 0.458824, 1)
+theme_override_font_sizes/font_size = 12
+text = "Every turn, you can play 0 - 2 cards, depending on the type of chemical reaction. Cards are discarded even if a reaction did not occur."
+autowrap_mode = 2
+
+[node name="Controls" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.670588, 0.337255, 0.458824, 1)
+theme_override_font_sizes/font_size = 12
+text = "Move the mouse to the card and press \"space\" to zoom in/out and 'left click' to select the card."
+autowrap_mode = 2
+
+[node name="Damage" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.670588, 0.337255, 0.458824, 1)
+theme_override_font_sizes/font_size = 12
+text = "If a reaction occurs, then the damage dealt is based on the TOTAL number of products produced. More specifically, based on the total number of moles, not atoms/molecules, so no Avogadro's number!"
+autowrap_mode = 2
+
+[node name="Win" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.670588, 0.337255, 0.458824, 1)
+theme_override_font_sizes/font_size = 12
+text = "If anyone's health drops to 0 or the game reaches the end of 5th turn, then the game ends. Whoever has greater health wins. Same amount of health is a tie."
+autowrap_mode = 2

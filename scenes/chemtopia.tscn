@@ -1,0 +1,111 @@
+[gd_scene load_steps=5 format=3 uid="uid://clu0o7tlgb6gs"]
+
+[ext_resource type="Script" path="res://scenes/chemtopia.gd" id="1_6ohov"]
+[ext_resource type="Texture2D" uid="uid://c35yyv7po0cu5" path="res://graphics/UI/SaveMenu.png" id="1_phh2u"]
+[ext_resource type="Texture2D" uid="uid://06hfiuxmqty2" path="res://graphics/UI/BlueTitle.png" id="2_v1bq3"]
+[ext_resource type="Texture2D" uid="uid://bqthage00eb37" path="res://graphics/UI/StarIcon.png" id="3_8hejp"]
+
+[node name="Chemtopia" type="Node2D"]
+script = ExtResource("1_6ohov")
+metadata/_edit_horizontal_guides_ = []
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(270.5, 194.025)
+scale = Vector2(0.376041, 0.30471)
+texture = ExtResource("1_phh2u")
+flip_h = true
+
+[node name="Title" type="Sprite2D" parent="."]
+position = Vector2(273, 24)
+scale = Vector2(0.277331, 0.200758)
+texture = ExtResource("2_v1bq3")
+metadata/_edit_group_ = true
+
+[node name="Label" type="Label" parent="Title"]
+offset_left = -193.0
+offset_top = -52.0
+offset_right = 206.0
+offset_bottom = 65.0
+theme_override_colors/font_color = Color(1, 0.905882, 0.839216, 1)
+theme_override_font_sizes/font_size = 60
+text = "CHEMTOPIA"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StarIcon" type="Sprite2D" parent="."]
+position = Vector2(54, 66)
+scale = Vector2(0.065534, 0.0747423)
+texture = ExtResource("3_8hejp")
+
+[node name="StarIcon2" type="Sprite2D" parent="."]
+position = Vector2(54, 90)
+scale = Vector2(0.065534, 0.0747423)
+texture = ExtResource("3_8hejp")
+
+[node name="StarIcon3" type="Sprite2D" parent="."]
+position = Vector2(54, 115)
+scale = Vector2(0.065534, 0.0747423)
+texture = ExtResource("3_8hejp")
+
+[node name="StarIcon4" type="Sprite2D" parent="."]
+position = Vector2(54, 159)
+scale = Vector2(0.065534, 0.0747423)
+texture = ExtResource("3_8hejp")
+
+[node name="StarIcon5" type="Sprite2D" parent="."]
+position = Vector2(54, 203)
+scale = Vector2(0.065534, 0.0747423)
+texture = ExtResource("3_8hejp")
+
+[node name="StarIcon6" type="Sprite2D" parent="."]
+position = Vector2(54, 227)
+scale = Vector2(0.065534, 0.0747423)
+texture = ExtResource("3_8hejp")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 63.0
+offset_top = 58.0
+offset_right = 504.0
+offset_bottom = 265.0
+
+[node name="ValenceElectron" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.670588, 0.337255, 0.458824, 1)
+theme_override_font_sizes/font_size = 12
+text = "Valence Electrons (v.e.): outermost electrons involved in reactions."
+autowrap_mode = 2
+
+[node name="Metal" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.670588, 0.337255, 0.458824, 1)
+theme_override_font_sizes/font_size = 12
+text = "Metal (M): give away valence electrons and form cations to achieve stability."
+autowrap_mode = 2
+
+[node name="TransitionMetal" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.670588, 0.337255, 0.458824, 1)
+theme_override_font_sizes/font_size = 12
+text = "Transition Metal (T): properties vary so Roman numerals are needed to indicate the cations' charges."
+autowrap_mode = 2
+
+[node name="Nonmetal" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.670588, 0.337255, 0.458824, 1)
+theme_override_font_sizes/font_size = 12
+text = "Nonmetal (N): accept valence electrons to form anions or share valence electrons to achieve stability."
+autowrap_mode = 2
+
+[node name="Ionic" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.670588, 0.337255, 0.458824, 1)
+theme_override_font_sizes/font_size = 12
+text = "Ionic Compound (I): combination of cation and anion with balanced charges."
+autowrap_mode = 2
+
+[node name="Covalent" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.670588, 0.337255, 0.458824, 1)
+theme_override_font_sizes/font_size = 12
+text = "Covalent Compound (C): nonmetals that share valence electrons to achieve stability."
+autowrap_mode = 2

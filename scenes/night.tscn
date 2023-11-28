@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cvlitl3h878r6"]
+
+[node name="Night" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -358.0
+offset_top = -278.0
+offset_right = 1177.0
+offset_bottom = 827.0
+color = Color(0.0352941, 0.12549, 0.294118, 0.513726)

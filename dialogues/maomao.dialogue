@@ -1,0 +1,94 @@
+~ greet
+if game_count["total"] == 1 and maomao_dialogue == ""
+	=> reaction
+elif game_count["total"] == 3 and maomao_dialogue == "room"
+	=> reaction
+elif game_count["total"] == 5 and maomao_dialogue == "reaction"
+	=> ionic_bond
+elif game_count["total"] == 7 and maomao_dialogue == "ionic_bond"
+	=> hw
+elif game_count["total"] == 10 and maomao_dialogue == "hw"
+	=> test
+elif game_count["total"] == 15 and maomao_dialogue == "test"
+	=> water
+% MaoMao: Have you eaten dinner yet?
+% MaoMao: Did you eat lunch today?
+% MaoMao: How was school?
+% MaoMao: How’s your day?
+% MaoMao: Practice might not make you perfect, but it’ll definitely make you better. Now go play some card games!
+- Tip => tips
+- Bye
+=> END
+
+
+~ tips
+% MaoMao: An atom’s goal in life is to have 8 valence electrons, even if they have to share… with exceptions, of course.
+% MaoMao: Hydrogen, one of the most common elements to have exceptions, only wants to have 2 valence electrons due to having one energy level.
+% MaoMao: Helium can achieve stability with just 2 valence electrons.
+% MaoMao: Cations give away valence electrons.
+% MaoMao: Anions take in valence electrons.
+% MaoMao: Chlorine has 7 valence electrons while hydrogen has 1. If they both share their valence electrons, they’ll both have 8 and become stable as HF.
+% MaoMao: The last group, or column, on the periodic table is the noble gases. Noble gases don’t react just like nobles don’t mingle with commoners.
+% MaoMao: Nonmetals form covalent bonds and share valence electrons.
+% MaoMao: Metals and nonmetals form ionic bonds in a give-take relationship. 
+% MaoMao: K is potassium metal which is in pure elemental form. K+ is potassium ion. No, you do not find potassium metal in bananas.
+=> END
+
+
+# these dialogues are unlocked with number of total game counts
+~ room
+MaoMao: By the way, I'll be staying here until my mission is done.
+MaoMao: Even though this place is like a dumpster.
+Sisu: Hey!
+MaoMao: If your conscience can bear the thought of me enduring the dark and cold outside, then I'll stay outside.
+Sisu: That’s not what I meant… You can stay here if you want, just don’t go to my parents’ room.
+MaoMao: Deal.
+set maomao_dialogue = "room"
+=> END
+
+
+~ ionic_bond
+MaoMao: Ionic bond is when you happily give your fishes to me, and I gladly accept them. 
+MaoMao: We are both at peace here.
+Sisu: We are???
+set maomao_dialogue = "ionic_bond"
+=> END
+
+
+~ reaction
+MaoMao: A reaction is like cooking a lemon butter fish. 
+MaoMao: You start off with lemon, butter, and fish, and you end with lemon butter fish. 
+MaoMao: The substance might change form but nothing disappears.
+MaoMao: By the way, what’s for dinner?
+Sisu: …Frozen lemon butter fish?
+set maomao_dialogue = "reaction"
+=> END
+
+
+~ test
+MaoMao: Don’t you have a test coming up? Have you studied for it?
+Sisu: …How did you know I have a test tomorrow?
+set maomao_animation = "ear"
+Sisu: Hey! Did you use your alien technology to hack into my school account?
+set maomao_animation = "idle"
+set maomao_dialogue = "test"
+=> END
+
+
+~ hw
+MaoMao: Have you done your homework yet?
+Sisu: I think there’s lemon pepper fish in the freezer…
+set maomao_dialogue = "hw"
+=> END
+
+
+~ water
+Sisu: Do you go outside when I’m not home?
+MaoMao: …[i]Your house is surrounded by water[/i].
+Sisu: You can go to the front yard?
+MaoMao: …[i]Your house is surrounded by water[/i].
+Sisu: Um, you can go to the backyard?
+MaoMao: …[i]Your house is surrounded by water[/i].
+Sisu: This conversation is over!
+set maomao_dialogue = "water"
+=> END

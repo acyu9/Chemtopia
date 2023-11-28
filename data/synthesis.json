@@ -1,0 +1,690 @@
+{
+  "Li, F2": {
+	"Products": "LiF",
+	"Coefficient": 2
+  },
+  "Li, Cl2": {
+	"Products": "LiCl",
+	"Coefficient": 2
+  },
+  "Li, Br2": {
+	"Products": "LiBr",
+	"Coefficient": 2
+  },
+  "Li, I2": {
+	"Products": "LiI",
+	"Coefficient": 2
+  },
+  "Na, F2": {
+	"Products": "NaF",
+	"Coefficient": 2
+  },
+  "Na, Cl2": {
+	"Products": "NaCl",
+	"Coefficient": 2
+  },
+  "Na, Br2": {
+	"Products": "NaBr",
+	"Coefficient": 2
+  },
+  "Na, I2": {
+	"Products": "NaI",
+	"Coefficient": 2
+  },
+  "K, F2": {
+	"Products": "KF",
+	"Coefficient": 2
+  },
+  "K, Cl2": {
+	"Products": "KCl",
+	"Coefficient": 2
+  },
+  "K, Br2": {
+	"Products": "KBr",
+	"Coefficient": 2
+  },
+  "K, I2": {
+	"Products": "KI",
+	"Coefficient": 2
+  },
+  "Rb, F2": {
+	"Products": "RbF",
+	"Coefficient": 2
+  },
+  "Rb, Cl2": {
+	"Products": "RbCl",
+	"Coefficient": 2
+  },
+  "Rb, Br2": {
+	"Products": "RbBr",
+	"Coefficient": 2
+  },
+  "Rb, I2": {
+	"Products": "RbI",
+	"Coefficient": 2
+  },
+  "Cs, F2": {
+	"Products": "CsF",
+	"Coefficient": 2
+  },
+  "Cs, Cl2": {
+	"Products": "CsCl",
+	"Coefficient": 2
+  },
+  "Cs, Br2": {
+	"Products": "CsBr",
+	"Coefficient": 2
+  },
+  "Cs, I2": {
+	"Products": "CsI",
+	"Coefficient": 2
+  },
+  "Li, O2": {
+	"Products": "Li2O",
+	"Coefficient": 2
+  },
+  "Na, O2": {
+	"Products": "Na2O",
+	"Coefficient": 2
+  },
+  "K, O2": {
+	"Products": "K2O",
+	"Coefficient": 2
+  },
+  "Rb, O2": {
+	"Products": "Rb2O",
+	"Coefficient": 2
+  },
+  "Cs, O2": {
+	"Products": "Cs2O",
+	"Coefficient": 2
+  },
+  "Li, S8": {
+	"Products": "Li2S",
+	"Coefficient": 8
+  },
+  "Na, S8": {
+	"Products": "Na2S",
+	"Coefficient": 8
+  },
+  "K, S8": {
+	"Products": "K2S",
+	"Coefficient": 8
+  },
+  "Rb, S8": {
+	"Products": "Rb2S",
+	"Coefficient": 8
+  },
+  "Cs, S8": {
+	"Products": "Cs2S",
+	"Coefficient": 8
+  },
+  "Li, P4": {
+	"Products": "Li3P",
+	"Coefficient": 4
+  },
+  "Na, P4": {
+	"Products": "Na3P",
+	"Coefficient": 4
+  },
+  "K, P4": {
+	"Products": "K3P",
+	"Coefficient": 4
+  },
+  "Rb, P4": {
+	"Products": "Rb3P",
+	"Coefficient": 4
+  },
+  "Cs, P4": {
+	"Products": "Cs3P",
+	"Coefficient": 4
+  },
+  "Li, N2": {
+	"Products": "Li3N",
+	"Coefficient": 2
+  },
+  "Na, N2": {
+	"Products": "Na3N",
+	"Coefficient": 2
+  },
+  "K, N2": {
+	"Products": "K3N",
+	"Coefficient": 2
+  },
+  "Rb, N2": {
+	"Products": "Rb3N",
+	"Coefficient": 2
+  },
+  "Cs, N2": {
+	"Products": "Cs3N",
+	"Coefficient": 2
+  },
+  "Be, F2": {
+	"Products": "BeF2",
+	"Coefficient": 1
+  },
+  "Mg, F2": {
+	"Products": "MgF2",
+	"Coefficient": 1
+  },
+  "Ca, F2": {
+	"Products": "CaF2",
+	"Coefficient": 1
+  },
+  "Sr, F2": {
+	"Products": "SrF2",
+	"Coefficient": 1
+  },
+  "Ba, F2": {
+	"Products": "BaF2",
+	"Coefficient": 1
+  },
+  "Be, Cl2": {
+	"Products": "BeCl2",
+	"Coefficient": 1
+  },
+  "Mg, Cl2": {
+	"Products": "MgCl2",
+	"Coefficient": 1
+  },
+  "Ca, Cl2": {
+	"Products": "CaCl2",
+	"Coefficient": 1
+  },
+  "Sr, Cl2": {
+	"Products": "SrCl2",
+	"Coefficient": 1
+  },
+  "Ba, Cl2": {
+	"Products": "BaCl2",
+	"Coefficient": 1
+  },
+  "Be, Br2": {
+	"Products": "BeBr2",
+	"Coefficient": 1
+  },
+  "Mg, Br2": {
+	"Products": "MgBr2",
+	"Coefficient": 1
+  },
+  "Ca, Br2": {
+	"Products": "CaBr2",
+	"Coefficient": 1
+  },
+  "Sr, Br2": {
+	"Products": "SrBr2",
+	"Coefficient": 1
+  },
+  "Ba, Br2": {
+	"Products": "BaBr2",
+	"Coefficient": 1
+  },
+  "Be, I2": {
+	"Products": "BeI2",
+	"Coefficient": 1
+  },
+  "Mg, I2": {
+	"Products": "MgI2",
+	"Coefficient": 1
+  },
+  "Ca, I2": {
+	"Products": "CaI2",
+	"Coefficient": 1
+  },
+  "Sr, I2": {
+	"Products": "SrI2",
+	"Coefficient": 1
+  },
+  "Ba, I2": {
+	"Products": "BaI2",
+	"Coefficient": 1
+  },
+  "Be, O2": {
+	"Products": "BeO",
+	"Coefficient": 2
+  },
+  "Mg, O2": {
+	"Products": "MgO",
+	"Coefficient": 2
+  },
+  "Ca, O2": {
+	"Products": "CaO",
+	"Coefficient": 2
+  },
+  "Sr, O2": {
+	"Products": "SrO",
+	"Coefficient": 2
+  },
+  "Ba, O2": {
+	"Products": "BaO",
+	"Coefficient": 2
+  },
+  "Be, S8": {
+	"Products": "BeS",
+	"Coefficient": 8
+  },
+  "Mg, S8": {
+	"Products": "MgS",
+	"Coefficient": 8
+  },
+  "Ca, S8": {
+	"Products": "CaS",
+	"Coefficient": 8
+  },
+  "Sr, S8": {
+	"Products": "SrS",
+	"Coefficient": 8
+  },
+  "Ba, S8": {
+	"Products": "BaS",
+	"Coefficient": 8
+  },
+  "Be, N2": {
+	"Products": "Be3N2",
+	"Coefficient": 1
+  },
+  "Mg, N2": {
+	"Products": "Mg3N2",
+	"Coefficient": 1
+  },
+  "Ca, N2": {
+	"Products": "Ca3N2",
+	"Coefficient": 1
+  },
+  "Sr, N2": {
+	"Products": "Sr3N2",
+	"Coefficient": 1
+  },
+  "Ba, N2": {
+	"Products": "Ba3N2",
+	"Coefficient": 1
+  },
+  "Be, P4": {
+	"Products": "Be3P2",
+	"Coefficient": 2
+  },
+  "Mg, P4": {
+	"Products": "Mg3P2",
+	"Coefficient": 2
+  },
+  "Ca, P4": {
+	"Products": "Ca3P2",
+	"Coefficient": 2
+  },
+  "Sr, P4": {
+	"Products": "Sr3P2",
+	"Coefficient": 2
+  },
+  "Ba, P4": {
+	"Products": "Ba3P2",
+	"Coefficient": 2
+  },
+  "Al, O2": {
+	"Products": "Al2O3",
+	"Coefficient": 2
+  },
+  "B, O2": {
+	"Products": "B2O3",
+	"Coefficient": 2
+  },
+  "Al, S8": {
+	"Products": "Al2S3",
+	"Coefficient": 8
+  },
+  "B, S8": {
+	"Products": "B2S3",
+	"Coefficient": 8
+  },
+  "Al, F2": {
+	"Products": "AlF3",
+	"Coefficient": 2
+  },
+  "B, F2": {
+	"Products": "BF3",
+	"Coefficient": 2
+  },
+  "Al, Cl2": {
+	"Products": "AlCl3",
+	"Coefficient": 2
+  },
+  "B, Cl2": {
+	"Products": "BCl3",
+	"Coefficient": 2
+  },
+  "Al, Br2": {
+	"Products": "AlBr3",
+	"Coefficient": 2
+  },
+  "B, Br2": {
+	"Products": "BBr3",
+	"Coefficient": 2
+  },
+  "Al, I2": {
+	"Products": "AlI3",
+	"Coefficient": 2
+  },
+  "B, I2": {
+	"Products": "BI3",
+	"Coefficient": 2
+  },
+  "Al, N2": {
+	"Products": "AlN",
+	"Coefficient": 2
+  },
+  "B, N2": {
+	"Products": "BN",
+	"Coefficient": 2
+  },
+  "Al, P4": {
+	"Products": "AlP",
+	"Coefficient": 4
+  },
+  "B, P4": {
+	"Products": "BP",
+	"Coefficient": 4
+  },
+  "Cu, F2": {
+	"Products": "CuF",
+	"Coefficient": 2
+  },
+  "Cu, Cl2": {
+	"Products": "CuCl",
+	"Coefficient": 2
+  },
+  "Cu, Br2": {
+	"Products": "CuBr",
+	"Coefficient": 2
+  },
+  "Cu, I2": {
+	"Products": "CuI",
+	"Coefficient": 2
+  },
+  "Ag, F2": {
+	"Products": "AgF",
+	"Coefficient": 2
+  },
+  "Ag, Br2": {
+	"Products": "AgBr",
+	"Coefficient": 2
+  },
+  "Ag, I2": {
+	"Products": "AgI",
+	"Coefficient": 2
+  },
+  "Ag, Cl2": {
+	"Products": "AgCl",
+	"Coefficient": 2
+  },
+  "Cd, F2": {
+	"Products": "CdF2",
+	"Coefficient": 1
+  },
+  "Cd, Cl2": {
+	"Products": "CdCl2",
+	"Coefficient": 1
+  },
+  "Cd, Br2": {
+	"Products": "CdBr2",
+	"Coefficient": 1
+  },
+  "Cd, I2": {
+	"Products": "CdI2",
+	"Coefficient": 1
+  },
+  "Fe, F2": {
+	"Products": "FeF3",
+	"Coefficient": 2
+  },
+  "Fe, Cl2": {
+	"Products": "FeCl3",
+	"Coefficient": 2
+  },
+  "Fe, Br2": {
+	"Products": "FeBr3",
+	"Coefficient": 2
+  },
+  "Fe, I2": {
+	"Products": "FeI3",
+	"Coefficient": 2
+  },
+  "Ni, F2": {
+	"Products": "NiF2",
+	"Coefficient": 1
+  },
+  "Ni, Cl2": {
+	"Products": "NiCl2",
+	"Coefficient": 1
+  },
+  "Ni, Br2": {
+	"Products": "NiBr2",
+	"Coefficient": 1
+  },
+  "Ni, I2": {
+	"Products": "NiI2",
+	"Coefficient": 1
+  },
+  "Sn, F2": {
+	"Products": "SnF2",
+	"Coefficient": 1
+  },
+  "Sn, Cl2": {
+	"Products": "SnCl2",
+	"Coefficient": 1
+  },
+  "Sn, Br2": {
+	"Products": "SnBr2",
+	"Coefficient": 1
+  },
+  "Sn, I2": {
+	"Products": "SnI2",
+	"Coefficient": 1
+  },
+  "Zn, F2": {
+	"Products": "ZnF2",
+	"Coefficient": 1
+  },
+  "Zn, Cl2": {
+	"Products": "ZnCl2",
+	"Coefficient": 1
+  },
+  "Zn, Br2": {
+	"Products": "ZnBr2",
+	"Coefficient": 1
+  },
+  "Zn, I2": {
+	"Products": "ZnI2",
+	"Coefficient": 1
+  },
+  "Pb, F2": {
+	"Products": "PbF4",
+	"Coefficient": 2
+  },
+  "Pb, Cl2": {
+	"Products": "PbCl4",
+	"Coefficient": 2
+  },
+  "Pb, Br2": {
+	"Products": "PbBr4",
+	"Coefficient": 2
+  },
+  "Pb, I2": {
+	"Products": "PbI4",
+	"Coefficient": 2
+  },
+  "Cu, O2": {
+	"Products": "Cu2O",
+	"Coefficient": 2
+  },
+  "Cu, S8": {
+	"Products": "Cu2S",
+	"Coefficient": 8
+  },
+  "Ag, O2": {
+	"Products": "Ag2O",
+	"Coefficient": 2
+  },
+  "Ag, S8": {
+	"Products": "Ag2S",
+	"Coefficient": 8
+  },
+  "Cd, O2": {
+	"Products": "CdO",
+	"Coefficient": 2
+  },
+  "Cd, S8": {
+	"Products": "CdS",
+	"Coefficient": 8
+  },
+  "Co, O2": {
+	"Products": "CoO",
+	"Coefficient": 2
+  },
+  "Co, S8": {
+	"Products": "CoS",
+	"Coefficient": 8
+  },
+  "Ni, O2": {
+	"Products": "NiO",
+	"Coefficient": 2
+  },
+  "Ni, S8": {
+	"Products": "NiS",
+	"Coefficient": 8
+  },
+  "Sn, O2": {
+	"Products": "SnO",
+	"Coefficient": 2
+  },
+  "Sn, S8": {
+	"Products": "SnS",
+	"Coefficient": 8
+  },
+  "Zn, O2": {
+	"Products": "ZnO",
+	"Coefficient": 2
+  },
+  "Zn, S8": {
+	"Products": "ZnS",
+	"Coefficient": 8
+  },
+  "Fe, O2": {
+	"Products": "Fe2O3",
+	"Coefficient": 2
+  },
+  "Fe, S8": {
+	"Products": "Fe2S3",
+	"Coefficient": 8
+  },
+  "Pb, O2": {
+	"Products": "PbO2",
+	"Coefficient": 1
+  },
+  "Pb, S8": {
+	"Products": "PbS2",
+	"Coefficient": 4
+  },
+  "Cu, N2": {
+	"Products": "Cu3N",
+	"Coefficient": 2
+  },
+  "Cu, P4": {
+	"Products": "Cu3P",
+	"Coefficient": 4
+  },
+  "Ag, N2": {
+	"Products": "Ag3N",
+	"Coefficient": 2
+  },
+  "Ag, P4": {
+	"Products": "Ag3P",
+	"Coefficient": 4
+  },
+  "Cd, N2": {
+	"Products": "Cd3N2",
+	"Coefficient": 1
+  },
+  "Cd, P4": {
+	"Products": "Cd3P2",
+	"Coefficient": 2
+  },
+  "Ni, N2": {
+	"Products": "Ni3N2",
+	"Coefficient": 1
+  },
+  "Ni, P4": {
+	"Products": "Ni3P2",
+	"Coefficient": 2
+  },
+  "Sn, N2": {
+	"Products": "Sn3N2",
+	"Coefficient": 1
+  },
+  "Sn, P4": {
+	"Products": "Sn3P2",
+	"Coefficient": 2
+  },
+  "Zn, N2": {
+	"Products": "Zn3N2",
+	"Coefficient": 1
+  },
+  "Zn, P4": {
+	"Products": "Zn3P2",
+	"Coefficient": 2
+  },
+  "Co, N2": {
+	"Products": "Co3N2",
+	"Coefficient": 1
+  },
+  "Co, P4": {
+	"Products": "Co3P2",
+	"Coefficient": 2
+  },
+  "Fe, N2": {
+	"Products": "FeN",
+	"Coefficient": 2
+  },
+  "Fe, P4": {
+	"Products": "FeP",
+	"Coefficient": 4
+  },
+  "Pb, N2": {
+	"Products": "Pb3N4",
+	"Coefficient": 1
+  },
+  "Pb, P4": {
+	"Products": "Pb3P4",
+	"Coefficient": 1
+  },
+  "H2, F2": {
+	"Products": "HF",
+	"Coefficient": 2
+  },
+  "H2, Cl2": {
+	"Products": "HCl",
+	"Coefficient": 2
+  },
+  "H2, Br2": {
+	"Products": "HBr",
+	"Coefficient": 2
+  },
+  "H2, I2": {
+	"Products": "HI",
+	"Coefficient": 2
+  },
+  "H2, O2": {
+	"Products": "H2O",
+	"Coefficient": 2
+  },
+  "H2, S8": {
+	"Products": "H2S",
+	"Coefficient": 8
+  },
+  "H2, N2": {
+	"Products": "NH3",
+	"Coefficient": 2
+  },
+  "H2, P4": {
+	"Products": "H3P",
+	"Coefficient": 4
+  }
+}

@@ -1,0 +1,20 @@
+~ greet
+% Granny: Dearie, how was school?
+% Granny: Dearie, why don’t you stay for dinner today? I made some meat… beef stew.
+% Granny: Dearie, did you sleep well last night?
+% Granny: It’s a nice day for a little stroll, hohoho.
+% Granny: Hmm, I should go check on… Oh, dearie, I did not see you there. How are you doing?
+% Granny: Dearie, are you hungry? Why don’t you have a bowl of wild rice soup?
+% Granny: I landed on Neptune before, but it didn’t have a solid surface for me to walk on.
+% Granny: The blue sunset on Mars is beautiful.
+% Granny: What’s that, dearie? You’re surprised that aliens exist? I’m surprised some earthlings believe the Earth is flat, hohoho.
+- Play game
+	if energy == 0:
+		Granny: Dear, you need to rest. You'll collapse at this rate.
+		=> END
+	set reaction_type = "sr"
+	set show_icons = false
+	do switch_scene()
+- Bye
+
+=> END

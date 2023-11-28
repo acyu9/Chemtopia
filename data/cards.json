@@ -1,0 +1,1500 @@
+{
+  "H2": {
+	"Name": "Hydrogen",
+	"Category": "D",
+	"Info": "1 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Li": {
+	"Name": "Lithium",
+	"Category": "M",
+	"Info": "1 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": "A metal so light that it can float on water. Its ion is the reason your phone and laptop are powered. Another thing to be grateful of in your life."
+  },
+  "Na": {
+	"Name": "Sodium",
+	"Category": "M",
+	"Info": "1 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": "A highly reactive metal that explodes in water. It’s also crucial for nerve and muscle functions, but don’t worry, ions won’t explode in you."
+  },
+  "K": {
+	"Name": "Potassium",
+	"Category": "M",
+	"Info": "1 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": "“Eat a banana” is a common test prep tip as K+ is crucial for nerve functions. But you don’t remember chewing any soft metal when you eat banana?"
+  },
+  "Rb": {
+	"Name": "Rubidium",
+	"Category": "M",
+	"Info": "1 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": "Named for the “deep red” color emitted when light was cruelly shone on the electrons, forcing them to go on sugar high when they just wanted to chill."
+  },
+  "Cs": {
+	"Name": "Cesium",
+	"Category": "M",
+	"Info": "1 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": "One of the most reactive metals with the ability to shatter glass when placed in water. Kids, do NOT try this at home."
+  },
+  "Be": {
+	"Name": "Beryllium",
+	"Category": "M",
+	"Info": "2 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Mg": {
+	"Name": "Magnesium",
+	"Category": "M",
+	"Info": "2 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Ca": {
+	"Name": "Calcium",
+	"Category": "M",
+	"Info": "2 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Sr": {
+	"Name": "Strontium",
+	"Category": "M",
+	"Info": "2 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Ba": {
+	"Name": "Barium",
+	"Category": "M",
+	"Info": "2 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "B": {
+	"Name": "Boron",
+	"Category": "M",
+	"Info": "3 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Al": {
+	"Name": "Aluminum",
+	"Category": "M",
+	"Info": "3 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "N2": {
+	"Name": "Nitrogen",
+	"Category": "D",
+	"Info": "5 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "P4": {
+	"Name": "Phosphorus",
+	"Category": "N",
+	"Info": "5 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "O2": {
+	"Name": "Oxygen",
+	"Category": "D",
+	"Info": "6 v.e.",
+	"Reaction Types": "Synthesis, SR, Combustion",
+	"Description": null
+  },
+  "S8": {
+	"Name": "Sulfur",
+	"Category": "N",
+	"Info": "6 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "F2": {
+	"Name": "Fluorine",
+	"Category": "D",
+	"Info": "7 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Cl2": {
+	"Name": "Chlorine",
+	"Category": "D",
+	"Info": "7 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Br2": {
+	"Name": "Bromine",
+	"Category": "D",
+	"Info": "7 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "I2": {
+	"Name": "Iodine",
+	"Category": "D",
+	"Info": "7 v.e.",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Cu": {
+	"Name": "Copper",
+	"Category": "T",
+	"Info": "1+",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Ag": {
+	"Name": "Silver",
+	"Category": "T",
+	"Info": "1+",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Cd": {
+	"Name": "Cadmium",
+	"Category": "T",
+	"Info": "2+",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Ni": {
+	"Name": "Nickel",
+	"Category": "T",
+	"Info": "2+",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Sn": {
+	"Name": "Tin",
+	"Category": "T",
+	"Info": "2+",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Zn": {
+	"Name": "Zinc",
+	"Category": "T",
+	"Info": "2+",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Co": {
+	"Name": "Cobalt",
+	"Category": "T",
+	"Info": "2+",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Fe": {
+	"Name": "Iron",
+	"Category": "T",
+	"Info": "3+",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "Pb": {
+	"Name": "Lead",
+	"Category": "T",
+	"Info": "4+",
+	"Reaction Types": "Synthesis, SR",
+	"Description": null
+  },
+  "LiF": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "LiCl": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "LiBr": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "LiI": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "NaF": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "NaCl": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "NaBr": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "NaI": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "KF": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "KCl": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "KBr": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "KI": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "RbF": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "RbCl": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "RbBr": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "RbI": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CsF": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CsCl": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CsBr": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CsI": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Li2O": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Na2O": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "K2O": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Rb2O": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Cs2O": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Li2S": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Na2S": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "K2S": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Rb2S": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Cs2S": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Li3P": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Na3P": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "K3P": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Rb3P": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Cs3P": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Li3N": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Na3N": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "K3N": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Rb3N": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Cs3N": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BeF2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "MgF2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CaF2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "SrF2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BaF2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BeCl2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "MgCl2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CaCl2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "SrCl2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BaCl2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BeBr2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "MgBr2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CaBr2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "SrBr2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BaBr2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BeI2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "MgI2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CaI2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "SrI2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BaI2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BeO": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "MgO": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CaO": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "SrO": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BaO": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BeS": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "MgS": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CaS": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "SrS": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BaS": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Be3N2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Mg3N2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Ca3N2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Sr3N2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Ba3N2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Be3P2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Mg3P2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Ca3P2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Sr3P2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Ba3P2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Al2O3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "B2O3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Al2S3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "B2S3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "AlF3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BF3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "AlCl3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BCl3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "AlBr3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BBr3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "AlI3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BI3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "AlN": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BN": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "AlP": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "BP": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CuF": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CuCl": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CuBr": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CuI": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "AgF": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "AgBr": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "AgI": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "AgCl": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CdF2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CdCl2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CdBr2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CdI2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "FeF3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "FeCl3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "FeBr3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "FeI3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "NiF2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "NiCl2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "NiBr2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "NiI2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "SnF2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "SnCl2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "SnBr2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "SnI2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "ZnF2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "ZnCl2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "ZnBr2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "ZnI2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "PbF4": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "PbCl4": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "PbBr4": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "PbI4": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Cu2O": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Cu2S": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Ag2O": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Ag2S": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CdO": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CdS": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CoO": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "CoS": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "NiO": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "NiS": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "SnO": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "SnS": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "ZnO": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "ZnS": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Fe2O3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Fe2S3": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "PbO2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "PbS2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Cu3N": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Cu3P": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Ag3N": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Ag3P": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Cd3N2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Cd3P2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Ni3N2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Ni3P2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Sn3N2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Sn3P2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Zn3P2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Zn3N2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Co3N2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Co3P2": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "FeN": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "FeP": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Pb3N4": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "Pb3P4": {
+	"Name": null,
+	"Category": "I",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A happy relationship between a cation and an anion, forged through their strong attraction to each other, though both are open to new possibilities."
+  },
+  "HF": {
+	"Name": "Hydrogen fluoride",
+	"Category": "C",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "Mono- is not needed for fluorides since the stoichiometry is not ambiguous. Hydrofluoric acid specifically refers to the aqueous solution."
+  },
+  "HCl": {
+	"Name": "Hydrogen chloride",
+	"Category": "C",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "Mono- is not needed for chloride since the stoichiometry is not ambiguous. Hydrochloric acid specifically refers to the aqueous solution."
+  },
+  "HBr": {
+	"Name": "Hydrogen bromide",
+	"Category": "C",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "Mono- is not needed for bromide since the stoichiometry is not ambiguous. Hydrobromic acid specifically refers to the aqueous solution."
+  },
+  "HI": {
+	"Name": "Hydrogen iodide",
+	"Category": "C",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "Mono- is not needed for iodide since the stoichiometry is not ambiguous. Hydroiodic acid specifically refers to the aqueous solution."
+  },
+  "H2O": {
+	"Name": "Dihydrogen monoxide",
+	"Category": "C",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "H2S": {
+	"Name": "Dihydrogen monosulfide",
+	"Category": "C",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "NH3": {
+	"Name": "Ammonia",
+	"Category": "C",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "H3P": {
+	"Name": "Trihydrogen monophosphide",
+	"Category": "C",
+	"Info": null,
+	"Reaction Types": "Decomp, SR, DR",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "CH4": {
+	"Name": "Methane",
+	"Category": "C",
+	"Info": "Hydrocarbon",
+	"Reaction Types": "Combustion",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "C2H6": {
+	"Name": "Ethane",
+	"Category": "C",
+	"Info": "Hydrocarbon",
+	"Reaction Types": "Combustion",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "C3H8": {
+	"Name": "Propane",
+	"Category": "C",
+	"Info": "Hydrocarbon",
+	"Reaction Types": "Combustion",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "C4H10": {
+	"Name": "Butane",
+	"Category": "C",
+	"Info": "Hydrocarbon",
+	"Reaction Types": "Combustion",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "C5H12": {
+	"Name": "Pentane",
+	"Category": "C",
+	"Info": "Hydrocarbon",
+	"Reaction Types": "Combustion",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "C6H14": {
+	"Name": "Hexane",
+	"Category": "C",
+	"Info": "Hydrocarbon",
+	"Reaction Types": "Combustion",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "C8H18": {
+	"Name": "Octane",
+	"Category": "C",
+	"Info": "Hydrocarbon",
+	"Reaction Types": "Combustion",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "C6H12": {
+	"Name": "Cyclohexane",
+	"Category": "C",
+	"Info": "Hydrocarbon",
+	"Reaction Types": "Combustion",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "CH3OH": {
+	"Name": "Methanol",
+	"Category": "C",
+	"Info": "Alcohol",
+	"Reaction Types": "Combustion",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "C3H6O": {
+	"Name": "Acetone",
+	"Category": "C",
+	"Info": "Ketone",
+	"Reaction Types": "Combustion",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "C2H5OH": {
+	"Name": "Ethanol",
+	"Category": "C",
+	"Info": "Alcohol",
+	"Reaction Types": "Combustion",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  },
+  "CO2": {
+	"Name": "Carbon dioxide",
+	"Category": "C",
+	"Info": "4, 6 v.e.",
+	"Reaction Types": "Product-Only",
+	"Description": "A peaceful relationship between the nonmetals united by their agreement to share, though one is more selfish and they are open to new possibilities."
+  }
+}

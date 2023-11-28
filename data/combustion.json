@@ -1,0 +1,46 @@
+{
+  "CH4, O2": {
+	"Products": "H2O, CO2",
+	"Coefficient": 3
+  },
+  "C2H6, O2": {
+	"Products": "H2O, CO2",
+	"Coefficient": 10
+  },
+  "C3H8, O2": {
+	"Products": "H2O, CO2",
+	"Coefficient": 7
+  },
+  "C4H10, O2": {
+	"Products": "H2O, CO2",
+	"Coefficient": 18
+  },
+  "C5H12, O2": {
+	"Products": "H2O, CO2",
+	"Coefficient": 22
+  },
+  "C6H14, O2": {
+	"Products": "H2O, CO2",
+	"Coefficient": 26
+  },
+  "C8H18, O2": {
+	"Products": "H2O, CO2",
+	"Coefficient": 34
+  },
+  "C6H12, O2": {
+	"Products": "H2O, CO2",
+	"Coefficient": 24
+  },
+  "CH3OH, O2": {
+	"Products": "H2O, CO2",
+	"Coefficient": 6
+  },
+  "C3H6O, O2": {
+	"Products": "H2O, CO2",
+	"Coefficient": 6
+  },
+  "C2H5OH, O2": {
+	"Products": "H2O, CO2",
+	"Coefficient": 10
+  }
+}

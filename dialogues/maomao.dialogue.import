@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://dk8qfjgbi7pco"
+path="res://.godot/imported/maomao.dialogue-f5cfc2d5eb1334785a0f6d091adfab82.tres"
+
+[deps]
+
+source_file="res://dialogues/maomao.dialogue"
+dest_files=["res://.godot/imported/maomao.dialogue-f5cfc2d5eb1334785a0f6d091adfab82.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,143 @@
+[gd_scene load_steps=10 format=3 uid="uid://cbwj6ms4ln7hd"]
+
+[ext_resource type="Script" path="res://cards/card_base.gd" id="1_wipmn"]
+[ext_resource type="Texture2D" uid="uid://bi62eaimwe0at" path="res://graphics/cards/slice62.png" id="2_ggkc4"]
+[ext_resource type="Script" path="res://cards/card_area2D.gd" id="2_ssduu"]
+[ext_resource type="Texture2D" uid="uid://b3sf8jkdxheh0" path="res://graphics/cards/slice42.png" id="3_h7v5t"]
+[ext_resource type="Texture2D" uid="uid://b73lomyuj5wn4" path="res://graphics/cards/slice66.png" id="5_7oi68"]
+[ext_resource type="Texture2D" uid="uid://chnqp41s1avaw" path="res://graphics/cards/slice46.png" id="6_kl8a0"]
+[ext_resource type="Texture2D" uid="uid://dh60v7xgm5kba" path="res://graphics/cards/slice39.png" id="7_qkgh8"]
+[ext_resource type="Texture2D" uid="uid://bheexfj6gvqx0" path="res://graphics/cards/slice65.png" id="8_by4um"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1bt2r"]
+size = Vector2(208.75, 291.25)
+
+[node name="CardBase" type="Control" groups=["not_selected"]]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 214.0
+offset_bottom = 296.0
+script = ExtResource("1_wipmn")
+
+[node name="CardArea2D" type="Area2D" parent="."]
+script = ExtResource("2_ssduu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CardArea2D"]
+position = Vector2(107.625, 146.375)
+shape = SubResource("RectangleShape2D_1bt2r")
+
+[node name="Background" type="TextureRect" parent="."]
+modulate = Color(0, 0.752941, 0.760784, 1)
+layout_mode = 0
+offset_right = 214.0
+offset_bottom = 296.0
+texture = ExtResource("2_ggkc4")
+
+[node name="Symbol" type="CenterContainer" parent="."]
+layout_mode = 0
+offset_top = 30.0
+offset_right = 214.0
+offset_bottom = 130.0
+
+[node name="SymbolRect" type="TextureRect" parent="Symbol"]
+custom_minimum_size = Vector2(180, 100)
+layout_mode = 2
+texture = ExtResource("3_h7v5t")
+expand_mode = 1
+
+[node name="SymbolLabel" type="RichTextLabel" parent="Symbol"]
+modulate = Color(0, 0, 0, 1)
+texture_filter = 1
+custom_minimum_size = Vector2(120, 50)
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 24
+bbcode_enabled = true
+text = "C2H5OH"
+
+[node name="Name" type="CenterContainer" parent="."]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -3.0
+offset_right = 216.0
+offset_bottom = 72.0
+
+[node name="NameRect" type="TextureRect" parent="Name"]
+layout_mode = 2
+texture = ExtResource("5_7oi68")
+
+[node name="NameLabel" type="Label" parent="Name"]
+modulate = Color(0, 0, 0, 1)
+custom_minimum_size = Vector2(80, 10)
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "Potassium phosiphide"
+horizontal_alignment = 1
+
+[node name="Description" type="CenterContainer" parent="."]
+layout_mode = 0
+offset_top = 139.0
+offset_right = 215.0
+offset_bottom = 290.0
+
+[node name="DescriptionRect" type="TextureRect" parent="Description"]
+custom_minimum_size = Vector2(180, 130)
+layout_mode = 2
+texture = ExtResource("6_kl8a0")
+expand_mode = 1
+
+[node name="DescriptionLabel" type="Label" parent="Description"]
+modulate = Color(0, 0, 0, 1)
+custom_minimum_size = Vector2(165, 120)
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "This is a sample text.
+It looks blurry. It wraps around with the size of the box == description box."
+autowrap_mode = 2
+
+[node name="Category" type="CenterContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CategoryRect" type="TextureRect" parent="Category"]
+layout_mode = 2
+texture = ExtResource("7_qkgh8")
+
+[node name="CategoryLabel" type="Label" parent="Category"]
+modulate = Color(0, 0, 0, 1)
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "P"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Info" type="CenterContainer" parent="."]
+layout_mode = 0
+offset_top = 110.0
+offset_right = 214.0
+offset_bottom = 150.0
+
+[node name="InfoRect" type="TextureRect" parent="Info"]
+layout_mode = 2
+texture = ExtResource("8_by4um")
+
+[node name="InfoLabel" type="Label" parent="Info"]
+modulate = Color(0, 0, 0, 1)
+custom_minimum_size = Vector2(74, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Hydrocarbon"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="TextureButton" type="TextureButton" parent="."]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[connection signal="body_entered" from="CardArea2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="CardArea2D" to="." method="_on_area_2d_body_exited"]
+[connection signal="mouse_entered" from="CardArea2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="CardArea2D" to="." method="_on_area_2d_mouse_exited"]

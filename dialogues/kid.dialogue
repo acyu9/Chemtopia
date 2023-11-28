@@ -1,0 +1,81 @@
+~ greet
+if game_count["decomp"] == 3 and kid_dialogue == ""
+	=> octopus
+elif game_count["decomp"] == 5 and kid_dialogue == "octopus"
+	=> birthday
+elif game_count["decomp"] == 7 and kid_dialogue == "birthday"
+	=> durian
+elif game_count["decomp"] == 10 and kid_dialogue == "durian"
+	=> phones
+% Jun: Susu, let’s play!
+% Jun: Susu, a crab poked me today T^T
+% Jun: The sunshine makes me feel happy! And a little dry…
+% Jun: Susu, do you think one of the stars is my homeland?
+% Jun: Susu, come swim with me!
+% Jun: Susu, what does ice cream taste like? I saw an earthling eating one this morning!
+% Jun: Susu, the wind feels nice! Come float in the water with me!
+% Jun: Susu, is it true that earthing's blood is red?
+- Play game
+	if energy == 0:
+		Jun: Susu, you look tired! It's dangerous if you don't sleep! We can play tomorrow.
+		=> END
+	set reaction_type = "decomp"
+	set show_icons = false
+	do switch_scene()
+- Bye
+
+=> END
+
+
+# unlocked with decomp game count
+~ octopus
+Jun: Susu, Susu, did you know? I morphed into an octopus form because humans worship Cthulhu, so it must be a popular form loved by humans!
+Sisu: …Where did you get that from?
+Jun: The internet.
+Sisu: Right, the internet. 
+Sisu: Cthulhu is not an octopus; it's from a horror fiction.
+set kid_animation = "surprise"
+Sisu: Can you change to another form?
+set kid_animation = "idle"
+Jun: I can't change for 100 years once I take a form!
+Sisu: ...Make sure no one sees you. Earthlings eat octopus.
+Jun: Wah, earthlings are scary!
+set kid_dialogue = "octopus"
+=> END
+
+
+~ birthday
+Jun: Susu, Susu! It's my birthday today!
+Sisu: Happy birthday! How old are you now? 3?
+set kid_anmation = "air"
+Jun: I'm... 101 years old!
+Jun: I'm a baby now!
+Sisu: Yeah, baby.
+set kid_animation = "idle"
+set kid_dialogue = "birthday"
+=> END
+
+
+~ durian
+Jun: Susu, why do earthlings eat durian?
+Sisu: Not everyone likes it, but the ones who do say it's sweet and creamy.
+Jun: Ohhhh, so even though it smells funny, it tastes good?
+Jun: No wonder I saw my brother eating rotten, infested orc before!
+Sisu: ...What?
+set kid_dialogue = "durian"
+=> END
+
+
+~ phones
+Jun: Susu, Susu! What is that little metal thing that everyone is holding?
+Sisu: What thing?
+Jun: The one that everyone looks at! They tap on it and sometimes have this weird smile on their faces!
+Sisu: ...A phone?
+Jun: Phone? Is that an emergency communication device? I see earthlings staring at it for hours!
+Sisu: Phone...
+Sisu: If it's not in your sight, you get nervous. 
+Sisu: If it's in your sight, you want to use it.
+Sisu: If it's lost, you lose your mind!
+Jun: ??? Is it a weapon from the enemy?
+set kid_dialogue = "phones"
+=> END

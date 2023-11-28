@@ -1,0 +1,330 @@
+{
+  "HF, Li": {
+    "Products": "LiF, H2",
+    "Coefficient": 3
+  },
+  "HF, Na": {
+    "Products": "NaF, H2",
+    "Coefficient": 3
+  },
+  "HF, K": {
+    "Products": "KF, H2",
+    "Coefficient": 3
+  },
+  "HF, Rb": {
+    "Products": "RbF, H2",
+    "Coefficient": 3
+  },
+  "HF, Cs": {
+    "Products": "CsF, H2",
+    "Coefficient": 3
+  },
+  "LiF, H2": {
+    "Products": "HF, Li",
+    "Coefficient": 4
+  },
+  "NaF, H2": {
+    "Products": "HF, Na",
+    "Coefficient": 4
+  },
+  "KF, H2": {
+    "Products": "HF, K",
+    "Coefficient": 4
+  },
+  "RbF, H2": {
+    "Products": "HF, Rb",
+    "Coefficient": 4
+  },
+  "CsF, H2": {
+    "Products": "HF, Cs",
+    "Coefficient": 4
+  },
+  "LiF, Na": {
+    "Products": "NaF, Li",
+    "Coefficient": 2
+  },
+  "LiF, K": {
+    "Products": "KF, Li",
+    "Coefficient": 2
+  },
+  "LiF, Rb": {
+    "Products": "RbF, Li",
+    "Coefficient": 2
+  },
+  "LiF, Cs": {
+    "Products": "CsF, Li",
+    "Coefficient": 2
+  },
+  "NaF, Li": {
+    "Products": "LiF, Na",
+    "Coefficient": 2
+  },
+  "KF, Li": {
+    "Products": "LiF, K",
+    "Coefficient": 2
+  },
+  "RbF, Li": {
+    "Products": "LiF, Rb",
+    "Coefficient": 2
+  },
+  "CsF, Li": {
+    "Products": "LiF, Cs",
+    "Coefficient": 2
+  },
+  "NaF, K": {
+    "Products": "KF, Na",
+    "Coefficient": 2
+  },
+  "NaF, Rb": {
+    "Products": "RbF, Na",
+    "Coefficient": 2
+  },
+  "NaF, Cs": {
+    "Products": "CsF, Na",
+    "Coefficient": 2
+  },
+  "KF, Na": {
+    "Products": "NaF, K",
+    "Coefficient": 2
+  },
+  "RbF, Na": {
+    "Products": "NaF, Rb",
+    "Coefficient": 2
+  },
+  "CsF, Na": {
+    "Products": "NaF, Cs",
+    "Coefficient": 2
+  },
+  "RbF, Cs": {
+    "Products": "CsF, Rb",
+    "Coefficient": 2
+  },
+  "CsF, Rb": {
+    "Products": "RbF, Cs",
+    "Coefficient": 2
+  },
+  "H2O, Na": {
+    "Products": "Na2O, H2",
+    "Coefficient": 2
+  },
+  "H2O, Li": {
+    "Products": "Li2O, H2",
+    "Coefficient": 2
+  },
+  "H2O, K": {
+    "Products": "K2O, H2",
+    "Coefficient": 2
+  },
+  "H2O, Rb": {
+    "Products": "Rb2O, H2",
+    "Coefficient": 2
+  },
+  "H2O, Cs": {
+    "Products": "Cs2O, H2",
+    "Coefficient": 2
+  },
+  "Na2O, H2": {
+    "Products": "H2O, Na",
+    "Coefficient": 3
+  },
+  "Li2O, H2": {
+    "Products": "H2O, Li",
+    "Coefficient": 3
+  },
+  "K2O, H2": {
+    "Products": "H2O, K",
+    "Coefficient": 3
+  },
+  "Rb2O, H2": {
+    "Products": "H2O, Rb",
+    "Coefficient": 3
+  },
+  "Cs2O, H2": {
+    "Products": "H2O, Cs",
+    "Coefficient": 3
+  },
+  "Li2O, Na": {
+    "Products": "Na2O, Li",
+    "Coefficient": 3
+  },
+  "Li2O, K": {
+    "Products": "K2O, Li",
+    "Coefficient": 3
+  },
+  "Li2O, Rb": {
+    "Products": "Rb2O, Li",
+    "Coefficient": 3
+  },
+  "Li2O, Cs": {
+    "Products": "Cs2O, Li",
+    "Coefficient": 3
+  },
+  "Na2O, Li": {
+    "Products": "Li2O, Na",
+    "Coefficient": 3
+  },
+  "K2O, Li": {
+    "Products": "Li2O, K",
+    "Coefficient": 3
+  },
+  "Rb2O, Li": {
+    "Products": "Li2O, Rb",
+    "Coefficient": 3
+  },
+  "Cs2O, Li": {
+    "Products": "Li2O, Cs",
+    "Coefficient": 3
+  },
+  "Na2O, K": {
+    "Products": "K2O, Na",
+    "Coefficient": 3
+  },
+  "Na2O, Rb": {
+    "Products": "Rb2O, Na",
+    "Coefficient": 3
+  },
+  "Na2O, Cs": {
+    "Products": "Cs2O, Na",
+    "Coefficient": 3
+  },
+  "K2O, Na": {
+    "Products": "Na2O, K",
+    "Coefficient": 3
+  },
+  "Rb2O, Na": {
+    "Products": "Na2O, Rb",
+    "Coefficient": 3
+  },
+  "Cs2O, Na": {
+    "Products": "Na2O, Cs",
+    "Coefficient": 3
+  },
+  "K2O, Rb": {
+    "Products": "Rb2O, K",
+    "Coefficient": 3
+  },
+  "K2O, Cs": {
+    "Products": "Cs2O, K",
+    "Coefficient": 3
+  },
+  "Rb2O, K": {
+    "Products": "K2O, Rb",
+    "Coefficient": 3
+  },
+  "Cs2O, K": {
+    "Products": "K2O, Cs",
+    "Coefficient": 3
+  },
+  "NH3, Li": {
+    "Products": "Li3N, H2",
+    "Coefficient": 5
+  },
+  "NH3, Na": {
+    "Products": "Na3N, H2",
+    "Coefficient": 5
+  },
+  "NH3, K": {
+    "Products": "K3N, H2",
+    "Coefficient": 5
+  },
+  "NH3, Rb": {
+    "Products": "Rb3N, H2",
+    "Coefficient": 5
+  },
+  "NH3, Cs": {
+    "Products": "Cs3N, H2",
+    "Coefficient": 5
+  },
+  "Li3N, H2": {
+    "Products": "NH3, Li",
+    "Coefficient": 8
+  },
+  "Na3N, H2": {
+    "Products": "NH3, Na",
+    "Coefficient": 8
+  },
+  "K3N, H2": {
+    "Products": "NH3, K",
+    "Coefficient": 8
+  },
+  "Rb3N, H2": {
+    "Products": "NH3, Rb",
+    "Coefficient": 8
+  },
+  "Cs3N, H2": {
+    "Products": "NH3, Cs",
+    "Coefficient": 8
+  },
+  "Li3N, Na": {
+    "Products": "Na3N, Li",
+    "Coefficient": 4
+  },
+  "Li3N, K": {
+    "Products": "K3N, Li",
+    "Coefficient": 4
+  },
+  "Li3N, Rb": {
+    "Products": "Rb3N, Li",
+    "Coefficient": 4
+  },
+  "Li3N, Cs": {
+    "Products": "Cs3N, Li",
+    "Coefficient": 4
+  },
+  "Na3N, Li": {
+    "Products": "Li3N, Na",
+    "Coefficient": 4
+  },
+  "K3N, Li": {
+    "Products": "Li3N, K",
+    "Coefficient": 4
+  },
+  "Rb3N, Li": {
+    "Products": "Li3N, Rb",
+    "Coefficient": 4
+  },
+  "Cs3N, Li": {
+    "Products": "Li3N, Cs",
+    "Coefficient": 4
+  },
+  "Na3N, K": {
+    "Products": "K3N, Na",
+    "Coefficient": 4
+  },
+  "Na3N, Rb": {
+    "Products": "Rb3N, Na",
+    "Coefficient": 4
+  },
+  "Na3N, Cs": {
+    "Products": "Cs3N, Na",
+    "Coefficient": 4
+  },
+  "K3N, Na": {
+    "Products": "Na3N, K",
+    "Coefficient": 4
+  },
+  "Rb3N, Na": {
+    "Products": "Na3N, Rb",
+    "Coefficient": 4
+  },
+  "Cs3N, Na": {
+    "Products": "Na3N, Cs",
+    "Coefficient": 4
+  },
+  "K3N, Rb": {
+    "Products": "Rb3N, K",
+    "Coefficient": 4
+  },
+  "K3N, Cs": {
+    "Products": "Cs3N, K",
+    "Coefficient": 4
+  },
+  "Rb3N, K": {
+    "Products": "K3N, Rb",
+    "Coefficient": 4
+  },
+  "Cs3N, K": {
+    "Products": "K3N, Cs",
+    "Coefficient": 4
+  }
+}
