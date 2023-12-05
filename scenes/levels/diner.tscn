@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://baypu85cd2fed"]
+[gd_scene load_steps=18 format=3 uid="uid://baypu85cd2fed"]
 
 [ext_resource type="PackedScene" uid="uid://cavk5vi5yolgc" path="res://scenes/levels/level.tscn" id="1_vh07v"]
 [ext_resource type="Script" path="res://scenes/levels/diner.gd" id="2_q8jtp"]
@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://cf6ltmf7hkbc6" path="res://scenes/chemtopia_button.tscn" id="9_nql3s"]
 [ext_resource type="PackedScene" uid="uid://bxe7b01syvr2g" path="res://scenes/game_rules_button.tscn" id="10_8wk0n"]
 [ext_resource type="PackedScene" uid="uid://c7f3rmmlll0cu" path="res://scenes/energy.tscn" id="11_d0nbr"]
+[ext_resource type="PackedScene" uid="uid://cicwwkuci7uiw" path="res://scenes/pause_menu.tscn" id="12_hqhip"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bejgk"]
 texture = ExtResource("2_r24lu")
@@ -2470,5 +2471,7 @@ metadata/_edit_lock_ = true
 [node name="Game_Rules_Button" parent="." index="7" instance=ExtResource("10_8wk0n")]
 
 [node name="Energy" parent="." index="8" instance=ExtResource("11_d0nbr")]
+
+[node name="PauseMenu" parent="." index="9" instance=ExtResource("12_hqhip")]
 
 [connection signal="body_entered" from="DinerEntrance" to="." method="_on_diner_entrance_body_entered"]

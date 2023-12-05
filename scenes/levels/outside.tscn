@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://rvta4erpnb2j"]
+[gd_scene load_steps=29 format=3 uid="uid://rvta4erpnb2j"]
 
 [ext_resource type="PackedScene" uid="uid://cavk5vi5yolgc" path="res://scenes/levels/level.tscn" id="1_v83fh"]
 [ext_resource type="Script" path="res://scenes/levels/outside.gd" id="2_k12oq"]
@@ -13,6 +13,7 @@
 [ext_resource type="Resource" uid="uid://da6xs1ouwd2ke" path="res://dialogues/alien5.dialogue" id="12_u8225"]
 [ext_resource type="PackedScene" uid="uid://cf6ltmf7hkbc6" path="res://scenes/chemtopia_button.tscn" id="14_njdw7"]
 [ext_resource type="PackedScene" uid="uid://bxe7b01syvr2g" path="res://scenes/game_rules_button.tscn" id="15_p62rm"]
+[ext_resource type="PackedScene" uid="uid://cicwwkuci7uiw" path="res://scenes/pause_menu.tscn" id="16_0qmqj"]
 [ext_resource type="PackedScene" uid="uid://c7f3rmmlll0cu" path="res://scenes/energy.tscn" id="16_8yy8u"]
 [ext_resource type="PackedScene" uid="uid://cvlitl3h878r6" path="res://scenes/night.tscn" id="17_qx8kh"]
 
@@ -2994,6 +2995,8 @@ script = SubResource("GDScript_c1peh")
 
 [node name="Night" parent="." index="14" instance=ExtResource("17_qx8kh")]
 visible = false
+
+[node name="PauseMenu" parent="." index="15" instance=ExtResource("16_0qmqj")]
 
 [connection signal="body_entered" from="HouseEntrance" to="." method="_on_house_entrance_body_entered"]
 [connection signal="body_entered" from="DinerEntrance" to="." method="_on_diner_entrance_body_entered"]

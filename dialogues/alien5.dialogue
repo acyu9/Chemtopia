@@ -1,27 +1,35 @@
 ~ greet
-Sisu: Hello.
-Felix: Play game?
-- yes
+if game_count["combustion"] == 0 and imp_dialogue == ""
+	=> before_first_game
+% Felix: What should I explode today? What? Dangerous? It's science experiment! (Not true)
+% Felix: I "found" a block of sodium and was about to throw it in the water... but I got caught. (Don't do this)
+% Felix: Pyrotechnician sounds like a fun job. I can set off fireworks all day! (Not true)
+% Felix: Should I launch a rocket in the... southwest direction? No, I chance of living is 0.
+- Play game
 	if energy == 0:
 		Felix: Kid, you need to rest!
 		=> END
 	set reaction_type = "combustion"
 	set show_icons = false
 	do switch_scene()
-- no
-
+- Bye
 => END
 
-#~ start
-#
-#Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-#Nathan: Here are some choices.
-#- First one
-#	Nathan: You picked the first one.
-#- Second one
-#	Nathan: You picked the second one.
-#- Start again => start
-#- End the conversation => END
-#Nathan: For more information see the online documentation.
-#
-#=> END
+
+~ before_first_game
+???: You're finally here!
+Sisu: Um, hi. I'm Sisu-
+???: I heard that we are going to be playing with [i]FIRE[/i]!
+Sisu: Why are you acting like my classmates when my teacher says there's demo today...
+Sisu: Shouldn't we review the concept first? I don't even know your name.
+Felix: Name is Felix. Combustion reaction occurs when a fuel reacts with oxygen to produce water and carbon dioxide. 
+Felix: The fuel is usually hydrocarbon, a substance with hydrogen and carbon. Ok let's play!
+Sisu: Wait-
+set imp_dialogue = "first_game"
+set reaction_type = "combustion"
+set show_icons = false
+do switch_scene()
+=> END
+
+
+# social media

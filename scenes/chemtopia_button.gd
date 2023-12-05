@@ -15,6 +15,7 @@ func _on_texture_button_pressed():
 	else:
 		$Chemtopia.visible = false
 		$Chemtopia2.visible = false
+		$PreviousPageButton.visible = false
 		$NextPageButton.visible = false
 		$Label.text = "C"
 	

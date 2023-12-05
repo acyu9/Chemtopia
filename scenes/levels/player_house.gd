@@ -5,42 +5,51 @@ extends Node2D
 # instance without a collision shape?
 @onready var house_entrance: Area2D = $HouseEntrance/EntranceActionable
 @onready var parents_room: Area2D = $ParentsRoom/ParentsActionable
+@onready var pause_menu = $PauseMenu
 var rest: bool = false
+var paused: bool = false
 
 
 func _ready():
 	Globals.location = "house"
 	Music.set_music()
 	
+	if Globals.intro != "" and Globals.intro != "start":
+		$MaoMao.visible = true
+	
+	# player first scene dialogue
 	if Globals.intro == "":
 		$Player/Actionable.action()
+	
+	# maomao explains the rules then get rid of that node so only shows greet after
 	if Globals.intro == "ended":
 		$MaoMao/MaoActionable.action()
-		
-	# this global var is currently changed in Dialogue, at the end of game_rules
-	# change after going to school instead
-	if Globals.intro == "game":
-		$MaoMao/MaoActionable.dialogue_start = "game_rules"
-		$MaoMao/MaoActionable.action()
-	
-#	if Globals.intro != "" and Globals.intro != "ended":
-#		$Chemtopia.visible = true
-#		$Game_Rules_Button.visible = true
-#		$Energy.visible = true
-#		Globals.intro = "rules"
+		$MaoMao/MaoActionable.queue_free()
 
 	if Globals.intro != "" and Globals.intro != "ended":
 		$Player.position = Globals.house_pos
 
 
 func _process(_delta):
-	if Globals.intro != "" and Globals.intro != "start":
-		$MaoMao.visible = true
-	
 	if Globals.intro == "game_rules":
 		$Chemtopia.visible = true
 		$Game_Rules_Button.visible = true
 		$Energy.visible = true
+
+	if Input.is_action_just_pressed("menu"):
+		pause()
+
+
+# pause the game with the pause menu
+func pause():
+	paused = !paused
+	
+	if paused:
+		pause_menu.show()
+		Engine.time_scale = 0
+	else:
+		pause_menu.hide()
+		Engine.time_scale = 1
 
 
 # from inside house to outside
@@ -53,7 +62,7 @@ func _on_area_2d_body_entered(_body):
 		$Energy.visible = false
 		Globals.house_pos = $Player.position + Vector2(0, -10)
 		TransitionLayer.change_scene("res://scenes/levels/outside.tscn")
-		
+
 
 # from inside house to yard
 func _on_yard_entrance_body_entered(_body):

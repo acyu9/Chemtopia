@@ -1,4 +1,6 @@
 ~ greet
+if game_count["sr"] == 0 and granny_dialogue == ""
+	=> before_first_game
 % Granny: Dearie, how was school?
 % Granny: Dearie, why don’t you stay for dinner today? I made some meat… beef stew.
 % Granny: Dearie, did you sleep well last night?
@@ -16,5 +18,27 @@
 	set show_icons = false
 	do switch_scene()
 - Bye
+=> END
 
+
+~ before_first_game
+???: Hello, dear. The youngin told me about you and the card game. 
+Granny: You can call me Granny, though a little unsuitable for my age, hohoho.
+Sisu: Nice to meet you, Granny.
+Granny: What a polite child. Why don't you find a seat and have a hot meal first?
+Granny: Children shouldn't be skipping meals or eating cold meals all the time.
+Sisu: Thank you, Granny...
+...
+Sisu: That was delicious!
+Granny: I'm glad you like it, dearie.
+Granny: Now, let's play a round of card game. I'm in charge of single replacement reactions.
+Granny: For example, A + BC -> AC + B if A and B are both cations. A + BC -> BA + C if A and C are both anions.
+Sisu: I don't get it.
+Granny: Like you playing video game then switch to playing on your phone.
+Sisu: ??? Did MaoMao come up with that?!
+Granny: Hohoho. Let's practice together.
+set granny_dialogue = "first_game"
+set reaction_type = "sr"
+set show_icons = false
+do switch_scene()
 => END

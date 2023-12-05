@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://cxkhu0df4s6t0"]
+[gd_scene load_steps=28 format=3 uid="uid://cxkhu0df4s6t0"]
 
 [ext_resource type="PackedScene" uid="uid://cavk5vi5yolgc" path="res://scenes/levels/level.tscn" id="1_o0ukf"]
 [ext_resource type="Script" path="res://scenes/levels/player_house.gd" id="2_5vjp0"]
@@ -14,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://cf6ltmf7hkbc6" path="res://scenes/chemtopia_button.tscn" id="12_58t3g"]
 [ext_resource type="PackedScene" uid="uid://bxe7b01syvr2g" path="res://scenes/game_rules_button.tscn" id="13_850sx"]
 [ext_resource type="PackedScene" uid="uid://c7f3rmmlll0cu" path="res://scenes/energy.tscn" id="14_nuiho"]
+[ext_resource type="PackedScene" uid="uid://cicwwkuci7uiw" path="res://scenes/pause_menu.tscn" id="15_h12hi"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lyrk5"]
 texture = ExtResource("3_kyog1")
@@ -9675,9 +9676,9 @@ dialogue_start = "room"
 [node name="Camera2D" type="Camera2D" parent="." index="2"]
 position = Vector2(173, -133)
 limit_left = -200
-limit_top = -600
+limit_top = -200
 limit_right = 550
-limit_bottom = 600
+limit_bottom = 200
 
 [node name="HouseEntrance" type="Area2D" parent="." index="3"]
 position = Vector2(424, 162)
@@ -9764,6 +9765,8 @@ visible = false
 
 [node name="Energy" parent="." index="11" instance=ExtResource("14_nuiho")]
 visible = false
+
+[node name="PauseMenu" parent="." index="12" instance=ExtResource("15_h12hi")]
 
 [connection signal="body_entered" from="HouseEntrance" to="." method="_on_area_2d_body_entered"]
 [connection signal="body_entered" from="YardEntrance" to="." method="_on_yard_entrance_body_entered"]

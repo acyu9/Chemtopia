@@ -1,5 +1,7 @@
 ~ greet
-if game_count["decomp"] == 3 and kid_dialogue == ""
+if game_count["decomp"] == 0 and kid_dialogue == ""
+	=> before_first_game
+if game_count["decomp"] == 3 and kid_dialogue == "first_game"
 	=> octopus
 elif game_count["decomp"] == 5 and kid_dialogue == "octopus"
 	=> birthday
@@ -24,6 +26,25 @@ elif game_count["decomp"] == 10 and kid_dialogue == "durian"
 	do switch_scene()
 - Bye
 
+=> END
+
+
+~ before_first_game
+# need to interact with pond for Jun to appear
+#???: You found me!
+???: My name is Jun! Nice to meet you, Susu!
+Sisu: Um, yeah. It's Sisu actually.
+Jun: S-S-Susu!
+Sisu: ...It's fine.
+Jun: Susu! MaoMao said we can play games together!
+Sisu: Yeah, game.
+Jun: It's hard to hear everything he said when he's behind the window, but we'll be playing games on decomposition.
+Jun: MaoMao said it's a game of breaking things apart one at a time!
+Jun: Let's play!
+set kid_dialogue = "first_game"
+set reaction_type = "decomp"
+set show_icons = false
+do switch_scene()
 => END
 
 

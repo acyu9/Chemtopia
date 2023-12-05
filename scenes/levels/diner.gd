@@ -2,6 +2,9 @@ extends Node2D
 
 signal player_entered_diner(body)
 
+@onready var pause_menu = $PauseMenu
+var paused: bool = false
+
 
 # load player position next to NPC
 func _ready():
@@ -11,6 +14,23 @@ func _ready():
 	$Chemtopia.visible = true
 	$Game_Rules_Button.visible = true
 	$Energy.visible = true
+
+
+func _process(_delta):
+	if Input.is_action_just_pressed("menu"):
+		pause()
+
+
+# pause the game with the pause menu
+func pause():
+	paused = !paused
+	
+	if paused:
+		pause_menu.show()
+		Engine.time_scale = 0
+	else:
+		pause_menu.hide()
+		Engine.time_scale = 1
 
 
 func _on_area_2d_body_entered(body):

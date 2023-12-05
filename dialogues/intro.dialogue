@@ -2,8 +2,7 @@
 *CRASH*
 Sisu: !? What was that?
 Sisu: Sounds like it came from the backyard. I should go take a look.
-
-Use "ASWD" or arrow keys to move and "Space" to interact.
+Use "ASWD" or arrow keys to move and "Space" to interact. Press "Esc" to pull up the menu.
 => END
 
 
@@ -56,7 +55,7 @@ MaoMao: You expect a [i]cat[/i] to [i]play cards[/i]?
 Sisu: But you’re a cat alien who can control a UFO and make cards…
 MaoMao: *Ignore*
 set intro = "game_rules"
-MaoMao: You can read the Chemtopia (C) and Game Rules (R) later. 
+MaoMao: You can read the Chemtopia (C) and Game Rules (R) later. They are at the top right of the screen.
 MaoMao: Remember, science is all about observation and experimentation. The important thing is to collect data, not victories.
 MaoMao: It's crucial to balance work and rest, so make sure you sleep when you are out of energy (hearts).
 MaoMao: You can always come talk to me for hints, that is, if I’m in a good mood.

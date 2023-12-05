@@ -2,6 +2,8 @@ extends Node2D
 
 @onready var townsfolk: Area2D = $TownsfolkEntrance/EntranceActionable
 #@onready var player = preload("res://cards/card_base.tscn")
+@onready var pause_menu = $PauseMenu
+var paused: bool = false
 
 
 func _ready():
@@ -25,6 +27,21 @@ func _process(_delta):
 	else:
 		$Night.visible = false
 
+	if Input.is_action_just_pressed("menu"):
+		pause()
+
+
+# pause the game with the pause menu
+func pause():
+	paused = !paused
+	
+	if paused:
+		pause_menu.show()
+		Engine.time_scale = 0
+	else:
+		pause_menu.hide()
+		Engine.time_scale = 1
+	
 
 # Can have own signal by right-clicking the signal...
 func _on_house_entrance_body_entered(_body):

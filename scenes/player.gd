@@ -14,6 +14,7 @@ var direction: Vector2 = Vector2.ZERO
 #	$AnimatedSprite2D.play("idle_down")
 
 
+
 # _unhandled_input is so menus and such can block/prevent input. 
 # don't won't the character to move or do stuff while a menu is open/overlayed.
 func _unhandled_input(_event: InputEvent) -> void:
@@ -23,17 +24,18 @@ func _unhandled_input(_event: InputEvent) -> void:
 		if actionables.size() > 0:
 			actionables[0].action()
 			# don't save position if talking to MaoMao
-			if "MaoActionable" not in str(actionables):
+			if "Actionable" not in str(actionables):
 				# for saving player pos before card game (outside vs diner)
 				if "Alien3Actionable" not in str(actionables) and "Alien4Actionable" not in str(actionables):
 					Globals.player_pos = position
 				else:
 					Globals.diner_pos = position
+	
+	# update input here to prevent player from moving when there's dialogue
+	direction = Input.get_vector('left', 'right', 'up', 'down').normalized()		
 			
-			
-			
-#func _process(_delta):
-func _physics_process(_delta):
+
+func update_animation():
 	if Input.is_action_pressed("right"):
 		$AnimatedSprite2D.play("run_right")
 		$Direction.rotation = -90
@@ -57,13 +59,9 @@ func _physics_process(_delta):
 		$AnimatedSprite2D.play("idle_left")
 	
 	
-	
-	
-#	update_animation()
-#
-##func _physics_process(_delta):
+func _physics_process(_delta):
 	# movement input
-	direction = Input.get_vector('left', 'right', 'up', 'down').normalized()
+#	direction = Input.get_vector('left', 'right', 'up', 'down').normalized()
 
 	if direction:
 		velocity = direction * speed
@@ -72,7 +70,16 @@ func _physics_process(_delta):
 
 	# automatically includes delta
 	move_and_slide()
-#
+	
+	# update AnimatedSprite here so it's processed together with movement
+	# otherwise there's a lag between sprite update in unhandled_input
+	if direction:
+		update_animation()
+
+
+
+####### original using AnimationPlayer and AnimationTree instead of AnimatedSprite
+####### character "twitches" when pressing more than 1 key at once
 #func update_animation():
 #	# if Player is idle and not moving
 #	if(velocity == Vector2.ZERO):

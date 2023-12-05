@@ -1,13 +1,38 @@
 ~ greet
-Sisu: Hello.
-Imara: Play game?
-- yes
+if game_count["dr"] == 0 and slime_dialogue == ""
+	=> before_first_game
+% Imara: Welcome to Granny's Diner! Best diner and best granny in the world!
+% Imara: Sisu! Here to see me? I know I'm an absolute delight!
+% Imara: I worked hard today. I think I deserve Granny's apple pie!
+% Imara: Did you know mirrors talk? Mine wouldn't stop complimenting me this morning!
+% Imara: It's a nice day today. Good thing I'm in door otherwise it would be too bright outside!
+% Imara: I'm so good at being awesome, I should give weekly speeches at the diner!
+% Imara: Sisu, are you here to see me, the masterpiece of evolution?
+- Play game
 	if energy == 0:
 		Imara: Wow, Sisu, you need to rest up! We can play tomorrow.
 		=> END
 	set reaction_type = "dr"
 	set show_icons = false
 	do switch_scene()
-- no
-
+- Bye
 => END
+
+
+~ before_first_game
+???: Hiya, Sisu! I'm Imara!
+Imara: I saw you and Granny playing the card game. It looked fun so let's play together!
+Imara: MaoMao said I'm in charge of double replacement reactions.
+Imara: He said it's like Sisu-
+Sisu: Ahh! I did my homework this time! 
+Sisu: Double replacement is like two couples swapping partners, so AB + CD -> AD + BC.
+Imara: Awww, I quite like MaoMao's example of you.
+Sisu: No, thank you. Let's give it a try.
+set slime_dialogue = "first_game"
+set reaction_type = "dr"
+set show_icons = false
+do switch_scene()
+=> END
+
+
+# slime in RPG game, popular but weak/low level monster
